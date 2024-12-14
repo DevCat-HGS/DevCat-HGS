@@ -11,6 +11,18 @@
   </a> 
 </p>
 
+### 📈 Stats Preview
+
+  <div align='center'>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=DevCat-HGS&show_icons=true&count_private=true&include_all_commits=true&custom_title=My%20Stats&hide_border=true&theme=github_dark">
+        <img src='https://github-readme-stats.vercel.app/api?username=DevCat-HGS&show_icons=true&count_private=true&include_all_commits=true&custom_title=My%20Stats&hide_border=true' alt='My-Github-Stats'>
+    </picture>
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=DevCat-HGS&custom_title=Extensions&langs_count=3&hide_border=true&hide=html%23css%23MATLAB&theme=github_dark">
+        <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=DevCat-HGS&custom_title=Extensions&langs_count=3&hide_border=true&hide=html%23css%23MATLAB' alt='Top-Extensions'>
+    </picture>
+</div>
 ---
 
 ## 🔧 Current Focus
@@ -135,18 +147,6 @@ I'm a **developer** with experience in building applications from scratch. My pa
 
   [![GitHub Streak](https://streak-stats.demolab.com/?user=DevCat-HGS&theme=dark)](https://git.io/streak-stats)
 
-### 📈 Top Languages
-
-  <div align='center'>
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=DevCat-HGS&show_icons=true&count_private=true&include_all_commits=true&custom_title=My%20Stats&hide_border=true&theme=github_dark">
-        <img src='https://github-readme-stats.vercel.app/api?username=DevCat-HGS&show_icons=true&count_private=true&include_all_commits=true&custom_title=My%20Stats&hide_border=true' alt='My-Github-Stats'>
-    </picture>
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=DevCat-HGS&custom_title=Extensions&langs_count=3&hide_border=true&hide=html%23css%23MATLAB&theme=github_dark">
-        <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=DevCat-HGS&custom_title=Extensions&langs_count=3&hide_border=true&hide=html%23css%23MATLAB' alt='Top-Extensions'>
-    </picture>
-</div>
 
 ### 📊 GitHub Stats
 
