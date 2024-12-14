@@ -19,9 +19,16 @@
         <img src='https://github-readme-stats.vercel.app/api?username=DevCat-HGS&show_icons=true&count_private=true&include_all_commits=true&custom_title=My%20Stats&hide_border=true' alt='My-Github-Stats'>
     </picture>
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=DevCat-HGS&custom_title=Extensions&langs_count=3&hide_border=true&hide=html%23css%23MATLAB&theme=github_dark">
-        <img src='https://github-readme-stats.vercel.app/api/top-langs/?username=DevCat-HGS&custom_title=Extensions&langs_count=3&hide_border=true&hide=html%23css%23MATLAB' alt='Top-Extensions'>
-    </picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/top-langs?username=DevCat-HGS&show_icons=true&locale=en&layout=compact&theme=dark&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/top-langs?username=DevCat-HGS&show_icons=true&locale=en&layout=compact&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DevCat-HGS&show_icons=true&locale=en&layout=compact&hide=HTML,CSS,SCSS,Ruby,Jupyter%20Notebook" />
+</picture>
 </div>
 ---
 
