@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm DevCat</h1>
-<h3 align="center">A passionate developer</h3>
+<h3 align="center">A passionate developer who loves building innovative solutions 🌍</h3>
 
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=devcat-hgs&label=Profile%20views&color=0e75b6&style=flat" alt="devcat-hgs" /> 
@@ -11,41 +11,90 @@
   </a> 
 </p>
 
+---
+
 ## 🔧 Current Focus
-- 🌱 I'm currently learning **Courses**
-- 🔭 I’m working on [SENA](x)
-- 👯 I’m looking to collaborate on [Playapez](x)
-- 🤝 I’m looking for help with [Documentacion](x)
+- 🌱 **Currently learning**: **Advanced React**, **Next.js**, and **Typescript**.
+- 🔭 **Working on**: [SENA](x) - Building a comprehensive platform for educational courses.
+- 👯 **Looking to collaborate on**: [Playapez](x) - A gaming platform with great community features.
+- 🤝 **Seeking help with**: **Documentation** - Improving my project documentation for better understanding and collaboration.
 
 ## 📬 How to Reach Me
-- 📧 Email: **prototiphs0108@gmail.com**
-- 💬 Ask me about **React**
+- 📧 **Email**: [prototiphs0108@gmail.com](mailto:prototiphs0108@gmail.com)
+- 💬 **Ask me about**: **React**, **Web Development**, **Mobile Apps** (React Native, Flutter), and **AI Integration**.
 
 ## 🌟 Fun Fact
-"Si lo imaginas lo creas"
+"**Si lo imaginas lo creas**" - If you can imagine it, you can create it! 💡
 
 ---
 
 ### 🌐 Connect with Me
+I'm always open to connecting with new people. Let's chat or collaborate!
+
 <p align="left">
   <a href="https://fb.com/haroldgs" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="harold gs" height="30" width="40" /></a>
   <a href="https://instagram.com/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="example" height="30" width="40" /></a>
   <a href="https://www.youtube.com/c/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="example" height="30" width="40" /></a>
   <a href="https://discord.gg/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="example" height="30" width="40" /></a>
+  <a href="https://linkedin.com/in/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linkedin.svg" alt="example" height="30" width="40" /></a>
 </p>
 
 ---
 
-### 🛠️ **Languages and Tools:**
+## 📚 About Me
+I'm a **full-stack developer** with experience in building applications from scratch. My passion for programming started at an early age, and over time, I've honed my skills in multiple technologies. I'm always looking for ways to learn new skills and work on exciting projects.
+
+### 🖥️ Technical Skills:
+- **Languages**: JavaScript (React, Node.js, Next.js), TypeScript, Python, C++
+- **Web Development**: HTML5, CSS3, Bootstrap, Tailwind CSS, React, Vue.js
+- **Mobile Development**: React Native, Flutter, Android (Java, Kotlin)
+- **Backend**: Node.js, Express.js, Django, Flask
+- **Databases**: MongoDB, MySQL, PostgreSQL, Firebase
+- **Version Control**: Git, GitHub
+- **Tools**: Docker, Heroku, Vercel, Firebase, Figma
+
+---
+
+## 🌍 Current Projects
+
+### 📱 Playapez
+- **Description**: A gaming platform aimed at fostering a large online community.
+- **Tech Stack**: React, Firebase, Express
+
+### 📚 SENA
+- **Description**: Building a platform to deliver educational courses in various fields.
+- **Tech Stack**: React, Node.js, MongoDB
+
+### 🌐 Portfolio Website
+- **Description**: A personal website to showcase my projects and blogs.
+- **Tech Stack**: Next.js, Tailwind CSS, Vercel
+
+---
+
+## 💡 "Learning never exhausts the mind, it only ignites it." - Leonardo da Vinci
+
+---
+
+### 🔍 I'm currently exploring:
+- **AI and Machine Learning** with TensorFlow and Pytorch.
+- **Blockchain Development** with Ethereum and Solidity.
+- **Cloud Computing** with AWS and Google Cloud.
+
+---
+
+
+---
+
+### 🖥️ **Technical Skills**:
 
 #### **🔧 Frontend:**
-- <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
-- <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-- <a href="https://figma.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
-- <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
-- <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a>
-- <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a>
-- <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a>
+ <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
+ <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
+ <a href="https://figma.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a>
+ <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
+ <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/> </a>
+ <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a>
+ <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a>
 
 #### **💻 Backend:**
 - <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>
