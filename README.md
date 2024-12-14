@@ -133,7 +133,7 @@ I'm a **developer** with experience in building applications from scratch. My pa
 
 ### 🔥 GitHub Streak
 
-  [![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=DevCat-HGS)](https://github.com/DevCat-HGS/github-readme-stats)
+  [![GitHub Streak](https://streak-stats.demolab.com/?user=DevCat-HGS&theme=dark)](https://git.io/streak-stats)
 
 ### 📈 Top Languages
 
