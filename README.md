@@ -185,6 +185,6 @@ I'm a **developer** with experience in building applications from scratch. My pa
 <!--tech stack icons-->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,cpp,css,discord,postgres,express,figma,firebase,github,html,cs,typescript,js,linux,md,materialui,mongodb,mysql,nextjs,nodejs,postman,py,react,tailwind,ts,vscode&perline=14" />
+    <img src="https://skillicons.dev/icons?i=git,cpp,css,discord,postgres,express,figma,firebase,github,html,cs,ts,supabase,vite,js,linux,cursor,materialui,mongodb,mysql,nextjs,nodejs,postman,py,react,tailwind,vscode&perline=14" />
   </a>
 </p>
