@@ -5,39 +5,19 @@
   <img src="https://komarev.com/ghpvc/?username=DevCat-HGS&label=Profile%20views&color=0e75b6&style=flat" alt="DevCat-HGS" /> 
 </p>
 
----
 
-## 🔧 Current Focus
-- 🌱 **Currently learning**: **Advanced React**, **Next.js**, and **Typescript**.
-- 🔭 **Working on**: [SENA](x) - Building a comprehensive platform for educational courses.
-- 👯 **Looking to collaborate on**: [Playapez](x) - A gaming platform with great community features.
-- 🤝 **Seeking help with**: **Documentation** - Improving my project documentation for better understanding and collaboration.
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
-## 📬 How to Reach Me
-- 📧 **Email**: [prototiphs0108@gmail.com](mailto:prototiphs0108@gmail.com)
-- 💬 **Ask me about**: **React**, **Web Development**, **Mobile Apps** (React Native, Flutter), and **AI Integration**.
+## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> About me
+<picture> <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width = 250px></picture>## Acerca de mí
 
-## 🌟 Fun Fact
-"**Si lo imaginas lo creas**" - If you can imagine it, you can create it! 💡
+- :school: Soy un **developer** con experiencia en desarrollo de software, incluyendo aplicaciones web y móviles.
+- :sparkles: Me apasiona aprender nuevas tecnologías y resolver problemas de manera eficiente.
+- :computer: Tengo experiencia en **programación competitiva** y he trabajado con tecnologías como **JavaScript**, **React**, **Node.js**, **Python** y **Django**.
+- :nerd_face: Siempre estoy buscando maneras de mejorar mis habilidades y explorar nuevas herramientas y enfoques en desarrollo.
+- :rocket: Estoy abierto a oportunidades interesantes y proyectos colaborativos.
 
----
-
-### 🌐 Connect with Me
-I'm always open to connecting with new people. Let's chat or collaborate!
-
-<p align="left">
-  <a href="https://fb.com/haroldgs" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="harold gs" height="30" width="40" /></a>
-  <a href="https://instagram.com/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="example" height="30" width="40" /></a>
-  <a href="https://www.youtube.com/c/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="example" height="30" width="40" /></a>
-  <a href="https://discord.gg/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="example" height="30" width="40" /></a>
-</p>
-
----
-
-## 📚 About Me
-I'm a **developer** with experience in building applications from scratch. My passion for programming started at an early age, and over time, I've honed my skills in multiple technologies. I'm always looking for ways to learn new skills and work on exciting projects.
-
----
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 ## 🌍 Current Projects
 
@@ -59,16 +39,17 @@ I'm a **developer** with experience in building applications from scratch. My pa
 
 ---
 
-### 🔍 I'm currently exploring:
-- **AI and Machine Learning** with TensorFlow and Pytorch.
-- **Blockchain Development** with Ethereum and Solidity.
-- **Cloud Computing** with AWS and Google Cloud.
+## 🔧 Current Focus
+
+- 🌱 **Currently learning**: **Advanced React**, **Next.js**, and **Typescript**.
+- 🔭 **Working on**: [SENA](x) - Building a comprehensive platform for educational courses.
+- 👯 **Looking to collaborate on**: [Playapez](x) - A gaming platform with great community features.
+- 🤝 **Seeking help with**: **Documentation** - Improving my project documentation for better understanding and collaboration.
 
 ---
 
 
-
----
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 ## 📊 GitHub Stats
 
@@ -105,6 +86,10 @@ I'm a **developer** with experience in building applications from scratch. My pa
 ### <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills And Tecnology </b>
 <br>
 
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+
+
 
 <!--tech stack icons-->
 <p align="center">
@@ -112,3 +97,28 @@ I'm a **developer** with experience in building applications from scratch. My pa
     <img src="https://skillicons.dev/icons?i=git,cpp,arduino,blender,vercel,powershell,sqlite,sass,heroku,netlify,php,django,tensorflow,css,discord,postgres,express,figma,firebase,github,html,cs,unity,svg,ts,supabase,vite,js,linux,visualstudio,threejs,materialui,mongodb,mysql,nextjs,nodejs,flutter,gmail,java,instagram,postman,py,react,tailwind,vscode,windows,npm&perline=14" />
   </a>
 </p>
+
+
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+### 🌐 Connect with Me
+I'm always open to connecting with new people. Let's chat or collaborate!
+
+<p align="left">
+  <a href="https://fb.com/haroldgs" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="harold gs" height="30" width="40" /></a>
+  <a href="https://instagram.com/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="example" height="30" width="40" /></a>
+  <a href="https://www.youtube.com/c/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="example" height="30" width="40" /></a>
+  <a href="https://discord.gg/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="example" height="30" width="40" /></a>
+</p>
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+
+## 📬 How to Reach Me
+- 📧 **Email**: [prototiphs0108@gmail.com](mailto:prototiphs0108@gmail.com)
+- 💬 **Ask me about**: **React**, **Web Development**, **Mobile Apps** (React Native, Flutter), and **AI Integration**.
+
+## 🌟 Fun Fact
+"**Si lo imaginas lo creas**" - If you can imagine it, you can create it! 💡
+
