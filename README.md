@@ -78,8 +78,9 @@
 ---
 
 ### 📊 GitHub Stats
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=DevCat-HGS&show_icons=true&locale=en&layout=compact" alt="devcat-hgs" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=DevCat-HGS&show_icons=true&locale=en&layout=compact" alt="DevCat-HGS" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=DevCat-HGS&show_icons=true&locale=en" alt="devcat-hgs" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=DevCat-HGS&show_icons=true&locale=en" alt="DevCat-HGS" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=DevCat-HGS&" alt="devcat-hgs" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=DevCat-HGS&" alt="DevCat-HGS" /></p>
+
