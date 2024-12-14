@@ -41,7 +41,7 @@ I'm always open to connecting with new people. Let's chat or collaborate!
 ---
 
 ## 📚 About Me
-I'm a **full-stack developer** with experience in building applications from scratch. My passion for programming started at an early age, and over time, I've honed my skills in multiple technologies. I'm always looking for ways to learn new skills and work on exciting projects.
+I'm a **developer** with experience in building applications from scratch. My passion for programming started at an early age, and over time, I've honed my skills in multiple technologies. I'm always looking for ways to learn new skills and work on exciting projects.
 
 ---
 
