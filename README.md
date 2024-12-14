@@ -139,7 +139,7 @@ I'm a **developer** with experience in building applications from scratch. My pa
 
 ### 📈 Top Languages
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DevCat-HGS)](https://github.com/DevCat-HGS/github-readme-stats)
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DevCat-HGS&layout=compact)
 
 ### 📊 GitHub Stats
 
