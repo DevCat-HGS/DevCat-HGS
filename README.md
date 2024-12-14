@@ -134,17 +134,17 @@ I'm a **developer** with experience in building applications from scratch. My pa
 ### 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DevCat&" alt="DevCat" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lagaress&" alt="Lagaress" />
 </p>
 
 ### 📈 Top Languages
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DevCat&show_icons=true&locale=en&layout=compact" alt="DevCat" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Lagaress&show_icons=true&locale=en&layout=compact" alt="Lagaress" />
 </p>
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DevCat&show_icons=true&locale=en" alt="DevCat" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Lagaress&show_icons=true&locale=en" alt="Lagaress" />
 </p>
