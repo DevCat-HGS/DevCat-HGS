@@ -171,7 +171,6 @@ I'm a **developer** with experience in building applications from scratch. My pa
 </tr>
 </table>
 <!--- stats (end) -->
-
 <!--- trophy (start) -->
 <div align=center>
   <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
@@ -179,7 +178,13 @@ I'm a **developer** with experience in building applications from scratch. My pa
     </a>
 </div>
 <!--- trophy (start) -->
-
-
 </p>        
 <!--- stats (end) -->
+
+
+<!--tech stack icons-->
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,cpp,css,discord,postgres,express,figma,firebase,github,html,cs,typescript,js,linux,md,materialui,mongodb,mysql,nextjs,nodejs,postman,py,react,tailwind,ts,vscode&perline=14" />
+  </a>
+</p>
