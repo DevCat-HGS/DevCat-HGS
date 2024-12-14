@@ -145,4 +145,4 @@ I'm a **developer** with experience in building applications from scratch. My pa
 
 ### 📊 GitHub Stats
 
-  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?DevCat-HGS=anuraghazra&show_icons=true&theme=dark)
+  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=DevCat-HGS&show_icons=true&theme=dark)
