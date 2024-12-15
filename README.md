@@ -1,3 +1,5 @@
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 <h1 align="center">Hi 👋, I'm DevCat</h1>
 <h3 align="center">A passionate developer who loves building innovative solutions 🌍</h3>
 
@@ -5,6 +7,7 @@
   <img src="https://komarev.com/ghpvc/?username=DevCat-HGS&label=Profile%20views&color=0e75b6&style=flat" alt="DevCat-HGS" /> 
 </p>
 
+![Github Banner](https://github.com/Jaydeep-Yadav/Jaydeep-Yadav/blob/main/banner.png)
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
@@ -73,6 +76,8 @@
 </tr>
 </table>
 <!--- stats (end) -->
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
 <!--- trophy (start) -->
 <div align=center>
   <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
@@ -121,4 +126,6 @@ I'm always open to connecting with new people. Let's chat or collaborate!
 
 ## 🌟 Fun Fact
 "**Si lo imaginas lo creas**" - If you can imagine it, you can create it! 💡
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
 
