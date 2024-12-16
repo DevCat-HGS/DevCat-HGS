@@ -34,7 +34,7 @@
 
 ### 🌐 Portfolio Website
 - **Description**: A personal website to showcase my projects and blogs.
-- **Tech Stack**: Next.js, Vite, Javascript, Tailwind CSS, Netlify
+- **Tech Stack**: Next.js, Vite, Javascript
 
 ---
 
