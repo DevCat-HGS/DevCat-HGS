@@ -22,6 +22,19 @@
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
+
+<!--tech stack icons-->
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,cpp,arduino,blender,vercel,powershell,sqlite,sass,heroku,netlify,php,django,tensorflow,css,discord,postgres,express,figma,firebase,github,html,cs,unity,svg,ts,supabase,vite,js,linux,visualstudio,threejs,materialui,mongodb,mysql,nextjs,nodejs,flutter,gmail,java,instagram,postman,py,react,tailwind,vscode,windows,npm&perline=14" />
+  </a>
+</p>
+
+
+
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+
 ## 🌍 Current Projects
 
 ### 📱 Playapez
@@ -38,21 +51,6 @@
 
 ### <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills And Tecnology </b>
 <br>
-
-
-
-
-
-<!--tech stack icons-->
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,cpp,arduino,blender,vercel,powershell,sqlite,sass,heroku,netlify,php,django,tensorflow,css,discord,postgres,express,figma,firebase,github,html,cs,unity,svg,ts,supabase,vite,js,linux,visualstudio,threejs,materialui,mongodb,mysql,nextjs,nodejs,flutter,gmail,java,instagram,postman,py,react,tailwind,vscode,windows,npm&perline=14" />
-  </a>
-</p>
-
-
-
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 
 ---
