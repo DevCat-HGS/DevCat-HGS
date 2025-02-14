@@ -47,18 +47,6 @@
 </p>        
 <!--- stats (end) -->
 
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-
-
-## 🔧 Current Focus
-
-- 🌱 **Currently learning**: **Advanced React**, **Next.js**, and **Typescript**.
-- 🔭 **Working on**: [SENA](x) - Building a comprehensive platform for educational courses.
-- 👯 **Looking to collaborate on**: [Playapez](x) - A gaming platform with great community features.
-- 🤝 **Seeking help with**: **Documentation** - Improving my project documentation for better understanding and collaboration.
-
----
-
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
