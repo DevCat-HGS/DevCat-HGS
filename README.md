@@ -37,27 +37,18 @@
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
 
-## 🌍 Current Projects
+<!--- trophy (start) -->
+<div align=center>
+  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
+      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=DevCat-HGS&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
+    </a>
+</div>
+<!--- trophy (start) -->
+</p>        
+<!--- stats (end) -->
 
-### 📱 Playapez
-- **Description**: A gaming platform aimed at fostering a large online community.
-- **Tech Stack**: React, Firebase, Express
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
-### 📚 SENA
-- **Description**: Building a platform to deliver educational courses in various fields.
-- **Tech Stack**: React, Node.js, MongoDB
-
-### 🌐 Portfolio Website
-- **Description**: A personal website to showcase my projects and blogs.
-- **Tech Stack**: Next.js, Vite, Javascript
-
-
-
----
-
-## 💡 "Learning never exhausts the mind, it only ignites it." - Leonardo da Vinci
-
----
 
 ## 🔧 Current Focus
 
@@ -91,17 +82,6 @@
   </td>
 </tr>
 </table>
-<!--- stats (end) -->
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-
-<!--- trophy (start) -->
-<div align=center>
-  <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
-      <img align="center" width=84% src="https://github-profile-trophy.vercel.app/?username=DevCat-HGS&theme=radical&row=1&column=7&margin-h=15&margin-w=5&no-bg=true" alt="TROPHY" />
-    </a>
-</div>
-<!--- trophy (start) -->
-</p>        
 <!--- stats (end) -->
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
