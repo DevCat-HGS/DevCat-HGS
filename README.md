@@ -16,7 +16,7 @@
 
 - :school: Soy un **developer** con experiencia en desarrollo de software, incluyendo aplicaciones web y móviles.
 - :sparkles: Me apasiona aprender nuevas tecnologías y resolver problemas de manera eficiente.
-- :computer: Tengo experiencia en **programación competitiva** y he trabajado con tecnologías como **JavaScript**, **React**, **Node.js**, **Python** y **Django**.
+- :computer: Tengo experiencia en **programación competitiva** y he trabajado con tecnologías como **JavaScript**, **React**, **Node.js**, **Python** y **Kotlin**.
 - :nerd_face: Siempre estoy buscando maneras de mejorar mis habilidades y explorar nuevas herramientas y enfoques en desarrollo.
 - :rocket: Estoy abierto a oportunidades interesantes y proyectos colaborativos.
 
@@ -28,7 +28,7 @@
 <!--tech stack icons-->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,cpp,arduino,blender,vercel,powershell,sqlite,sass,heroku,netlify,php,django,tensorflow,css,discord,postgres,express,figma,firebase,github,html,cs,unity,svg,ts,supabase,vite,js,linux,visualstudio,threejs,materialui,mongodb,mysql,nextjs,nodejs,flutter,gmail,java,instagram,postman,py,react,tailwind,vscode,windows,npm&perline=14" />
+    <img src="https://skillicons.dev/icons?i=git,cpp,arduino,blender,vercel,powershell,sqlite,sass,heroku,netlify,php,django,tensorflow,css,discord,postgres,express,figma,firebase,github,html,cs,unity,svg,ts,supabase,vite,js,linux,visualstudio,threejs,materialui,mongodb,mysql,nextjs,nodejs,flutter,gmail,java,instagram,postman,py,react,tailwind,vscode,windows,arch,npm&perline=14" />
   </a>
 </p>
 
