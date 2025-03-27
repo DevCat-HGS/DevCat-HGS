@@ -36,18 +36,22 @@
 <!-- Tech Stack Icons -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,materialui,figma&perline=14" />
-    <img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,react,nextjs,vite,vue&perline=14" />
-    <img src="https://skillicons.dev/icons?i=php,django,py,tensorflow,anaconda&perline=14" />
-    <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,sqlite,supabase&perline=14" />
-    <img src="https://skillicons.dev/icons?i=git,github,vercel,heroku,netlify,docker&perline=14" />
-    <img src="https://skillicons.dev/icons?i=flutter,androidstudio,unity,cpp,cs,arduino&perline=14" />
-    <img src="https://skillicons.dev/icons?i=threejs,blender,svg&perline=14" />
-    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,arch,kali&perline=14" />
-    <img src="https://skillicons.dev/icons?i=discord,gmail,instagram,postman,npm&perline=14" />
+    <!-- Frontend -->
+    <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,materialui&perline=10" />
+    <!-- JavaScript Ecosystem -->
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,vue,nodejs,express&perline=10" />
+    <!-- Backend & Databases -->
+    <img src="https://skillicons.dev/icons?i=php,django,py,tensorflow,anaconda,mongodb,mysql,postgres,sqlite,supabase&perline=10" />
+    <!-- DevOps & Tools -->
+    <img src="https://skillicons.dev/icons?i=git,github,vercel,heroku,netlify,docker,npm,postman&perline=10" />
+    <!-- Game Development -->
+    <img src="https://skillicons.dev/icons?i=unity,cpp,cs,arduino,threejs,blender,svg&perline=10" />
+    <!-- IDEs & OS -->
+    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,arch,kali&perline=10" />
+    <!-- Social & Communication -->
+    <img src="https://skillicons.dev/icons?i=discord,gmail,instagram&perline=10" />
   </a>
 </p>
-
 
 
 
