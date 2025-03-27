@@ -25,12 +25,29 @@
 ### <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills And Tecnology </b>
 <br>
 
-<!--tech stack icons-->
+    <!--tech stack icons-->
+    <p align="center">
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=git,cpp,arduino,blender,vercel,powershell,sqlite,sass,heroku,netlify,php,django,tensorflow,css,discord,postgres,express,figma,firebase,github,html,cs,unity,svg,ts,supabase,vite,js,linux,visualstudio,threejs,materialui,mongodb,mysql,nextjs,nodejs,flutter,androidstudio,gmail,java,instagram,postman,py,react,tailwind,vscode,windows,arch,npm,docker,vue,kali,anaconda&perline=14" />
+      </a>
+    </p>
+
+
+<!-- Tech Stack Icons -->
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,cpp,arduino,blender,vercel,powershell,sqlite,sass,heroku,netlify,php,django,tensorflow,css,discord,postgres,express,figma,firebase,github,html,cs,unity,svg,ts,supabase,vite,js,linux,visualstudio,threejs,materialui,mongodb,mysql,nextjs,nodejs,flutter,androidstudio,gmail,java,instagram,postman,py,react,tailwind,vscode,windows,arch,npm,docker,vue,kali,anaconda&perline=14" />
+    <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,materialui,figma&perline=14" />
+    <img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,react,nextjs,vite,vue&perline=14" />
+    <img src="https://skillicons.dev/icons?i=php,django,py,tensorflow,anaconda&perline=14" />
+    <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,sqlite,supabase&perline=14" />
+    <img src="https://skillicons.dev/icons?i=git,github,vercel,heroku,netlify,docker&perline=14" />
+    <img src="https://skillicons.dev/icons?i=flutter,androidstudio,unity,cpp,cs,arduino&perline=14" />
+    <img src="https://skillicons.dev/icons?i=threejs,blender,svg&perline=14" />
+    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,arch,kali&perline=14" />
+    <img src="https://skillicons.dev/icons?i=discord,gmail,instagram,postman,npm&perline=14" />
   </a>
 </p>
+
 
 
 
