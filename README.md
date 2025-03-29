@@ -33,24 +33,35 @@
   </a>
 </p> -->
 
-
 <!-- Tech Stack Icons -->
 <p align="center">
   <a href="https://skillicons.dev">
     <!-- Frontend -->
-    <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,materialui&perline=10" />
+    <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,materialui,bootstrap" />
+    <br/>
     <!-- JavaScript Ecosystem -->
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,vue,nodejs,express&perline=10" />
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,vue,nodejs,express" />
+    <br/>
     <!-- Backend & Databases -->
-    <img src="https://skillicons.dev/icons?i=php,django,py,tensorflow,anaconda,mongodb,mysql,postgres,sqlite,supabase&perline=10" />
+    <img src="https://skillicons.dev/icons?i=php,django,py,tensorflow,anaconda,mongodb,mysql,postgres,sqlite,supabase,firebase" />
+    <br/>
+    <!-- Dev IA -->
+    <img src="https://skillicons.dev/icons?i=tensorflow,py,anaconda,pytorch,opencv" />
+    <br/>
     <!-- DevOps & Tools -->
-    <img src="https://skillicons.dev/icons?i=git,github,vercel,heroku,netlify,docker,npm,postman&perline=10" />
+    <img src="https://skillicons.dev/icons?i=git,github,vercel,heroku,netlify,docker,npm,postman" />
+    <br/>
     <!-- Game Development -->
-    <img src="https://skillicons.dev/icons?i=unity,cpp,cs,arduino,threejs,blender,svg&perline=10" />
+    <img src="https://skillicons.dev/icons?i=unity,cpp,cs,arduino,threejs,blender,svg" />
+    <br/>
+    <!-- Dev Movil -->
+    <img src="https://skillicons.dev/icons?i=flutter,androidstudio,kotlin" />
+    <br/>
     <!-- IDEs & OS -->
-    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,arch,kali&perline=10" />
+    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,arch,kali" />
+    <br/>
     <!-- Social & Communication -->
-    <img src="https://skillicons.dev/icons?i=discord,gmail,instagram&perline=10" />
+    <img src="https://skillicons.dev/icons?i=discord,gmail,instagram,teams" />
   </a>
 </p>
 
