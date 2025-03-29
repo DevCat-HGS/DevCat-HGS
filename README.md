@@ -43,7 +43,7 @@
     <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,vue,nodejs,express" />
     <br/>
     <!-- Backend & Databases -->
-    <img src="https://skillicons.dev/icons?i=php,django,py,tensorflow,anaconda,mongodb,mysql,postgres,sqlite,supabase,firebase" />
+    <img src="https://skillicons.dev/icons?i=php,django,mongodb,mysql,postgres,sqlite,supabase,firebase" />
     <br/>
     <!-- Dev IA -->
     <img src="https://skillicons.dev/icons?i=tensorflow,py,anaconda,pytorch,opencv" />
