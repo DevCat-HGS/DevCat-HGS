@@ -40,7 +40,7 @@
     <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,materialui,bootstrap" />
     <br/>
     <!-- JavaScript Ecosystem -->
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,vue,nodejs,express" />
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,vue,deno,nodejs,express" />
     <br/>
     <!-- Backend & Databases -->
     <img src="https://skillicons.dev/icons?i=php,django,mongodb,mysql,postgres,sqlite,supabase,firebase" />
