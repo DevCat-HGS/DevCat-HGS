@@ -58,7 +58,7 @@
     <img src="https://skillicons.dev/icons?i=flutter,androidstudio,kotlin" />
     <br/>
     <!-- IDEs & OS -->
-    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,arch,kali" />
+    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,arch,kali,redhat" />
     <br/>
     <!-- Social & Communication -->
     <img src="https://skillicons.dev/icons?i=discord,gmail,instagram,teams" />
