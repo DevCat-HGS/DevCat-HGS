@@ -40,16 +40,16 @@
     <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,materialui,bootstrap" />
     <br/>
     <!-- JavaScript Ecosystem -->
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,vue,deno,nodejs,express" />
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,vue,deno,nodejs,express,jquery" />
     <br/>
     <!-- Backend & Databases -->
-    <img src="https://skillicons.dev/icons?i=php,django,mongodb,mysql,postgres,sqlite,supabase,firebase" />
+    <img src="https://skillicons.dev/icons?i=php,django,flask,mongodb,mysql,postgres,sqlite,supabase,firebase" />
     <br/>
     <!-- Dev IA -->
     <img src="https://skillicons.dev/icons?i=tensorflow,py,anaconda,pytorch,opencv" />
     <br/>
     <!-- DevOps & Tools -->
-    <img src="https://skillicons.dev/icons?i=git,github,vercel,heroku,netlify,docker,npm,postman" />
+    <img src="https://skillicons.dev/icons?i=git,githubactions,github,vercel,heroku,netlify,docker,npm,postman" />
     <br/>
     <!-- Game Development -->
     <img src="https://skillicons.dev/icons?i=unity,cpp,cs,arduino,threejs,blender,svg" />
@@ -61,7 +61,7 @@
     <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,arch,kali,redhat" />
     <br/>
     <!-- Social & Communication -->
-    <img src="https://skillicons.dev/icons?i=discord,gmail,instagram,teams" />
+    <img src="https://skillicons.dev/icons?i=discord,gmail,instagram,linkedin" />
   </a>
 </p>
 
