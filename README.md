@@ -55,7 +55,7 @@
     <img src="https://skillicons.dev/icons?i=unity,cpp,cs,arduino,threejs,blender,svg" />
     <br/>
     <!-- Dev Movil -->
-    <img src="https://skillicons.dev/icons?i=flutter,androidstudio,kotlin" />
+    <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,kotlin" />
     <br/>
     <!-- IDEs & OS -->
     <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,arch,kali,redhat" />
