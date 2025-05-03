@@ -7,7 +7,6 @@
   <img src="https://komarev.com/ghpvc/?username=DevCat-HGS&label=Profile%20views&color=0e75b6&style=flat" alt="DevCat-HGS" /> 
 </p>
 
-<h2 aling"left"> Kit de herramientas que te ayudan esta era de tecnologia</h2>
 <p align="left">
    <a href="https://github.com/DevCat-HGS/DevTools">
       <img src="https://img.shields.io/badge/GitHub-DevTools-blue?style=for-the-badge&logo=github" alt="DevTools Repository">
