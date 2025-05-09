@@ -59,13 +59,13 @@
     <img src="https://skillicons.dev/icons?i=git,githubactions,github,vercel,heroku,netlify,docker,npm,postman" />
     <br/>
     <!-- Game Development -->
-    <img src="https://skillicons.dev/icons?i=unity,cpp,cs,arduino,threejs,blender,svg" />
+    <img src="https://skillicons.dev/icons?i=unity,cpp,qt,cs,arduino,threejs,blender,svg" />
     <br/>
     <!-- Dev Movil -->
     <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,kotlin" />
     <br/>
     <!-- IDEs & OS -->
-    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,arch,kali,redhat" />
+    <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,ubuntu,arch,kali,redhat" />
     <br/>
     <!-- Social & Communication -->
     <img src="https://skillicons.dev/icons?i=discord,gmail,instagram,linkedin" />
