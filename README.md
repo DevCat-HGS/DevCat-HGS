@@ -21,9 +21,9 @@
 ## <picture><img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 50px></picture> About me
 <picture> <img align="right" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Right_Side.gif?raw=true" width = 250px></picture>
 
-- :school: Soy un **developer** con experiencia en desarrollo de software, incluyendo aplicaciones web y móviles.
+- :school: Soy un **developer** con experiencia en desarrollo de software, incluyendo aplicaciones web y móviles, especialmente.
 - :sparkles: Me apasiona aprender nuevas tecnologías y resolver problemas de manera eficiente.
-- :computer: Tengo experiencia en **programación competitiva** y he trabajado con tecnologías como **JavaScript**, **React**, **Node.js**, **Python** y **Kotlin**.
+- :computer: Tengo experiencia en **programación competitiva** y me desenvuelvo con soltura en entornos de desarrollo modernos, tanto en frontend como backend.
 - :nerd_face: Siempre estoy buscando maneras de mejorar mis habilidades y explorar nuevas herramientas y enfoques en desarrollo.
 - :rocket: Estoy abierto a oportunidades interesantes y proyectos colaborativos.
 
