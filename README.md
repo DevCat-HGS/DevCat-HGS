@@ -112,30 +112,3 @@
 </table>
 <!--- stats (end) -->
 
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-
-
-### 🌐 Connect with Me
-I'm always open to connecting with new people. Let's chat or collaborate!
-
-<p align="left">
-  <a href="https://fb.com/haroldgs" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="harold gs" height="30" width="40" /></a>
-  <a href="https://instagram.com/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="example" height="30" width="40" /></a>
-  <a href="https://www.youtube.com/c/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="example" height="30" width="40" /></a>
-  <a href="https://discord.gg/example" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="example" height="30" width="40" /></a>
-</p>
-
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/DevCat-HGS/DevCat-HGS)
-
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-
-
-## 📬 How to Reach Me
-- 📧 **Email**: [prototiphs0108@gmail.com](mailto:prototiphs0108@gmail.com)
-- 💬 **Ask me about**: **React**, **Web Development**, **Mobile Apps** (React Native, Flutter), and **AI Integration**.
-
-## 🌟 Fun Fact
-"**Si lo imaginas lo creas**" - If you can imagine it, you can create it! 💡
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-
-
