@@ -41,6 +41,21 @@ COLORS = {
 }
 FALLBACK_COLOR = "#8b949e"
 
+LOCALES = {
+    "en": {
+        "file": "languages.svg",
+        "aria": "Programming languages used",
+        "volume": "Code volume",
+        "breadth": "Breadth of use",
+    },
+    "es": {
+        "file": "languages.es.svg",
+        "aria": "Lenguajes de programación utilizados",
+        "volume": "Volumen de código",
+        "breadth": "Amplitud de uso",
+    },
+}
+
 TOP_N = 8
 BAR_W = 200
 ROW_H = 26
@@ -140,7 +155,7 @@ def panel(title, rows, total, suffix, x_offset):
     return "\n  ".join(parts)
 
 
-def render(by_bytes, by_repo_count):
+def render(by_bytes, by_repo_count, locale):
     total_bytes = sum(by_bytes.values())
     top_bytes = sorted(by_bytes.items(), key=lambda kv: -kv[1])[:TOP_N]
     top_count = sorted(by_repo_count.items(), key=lambda kv: -kv[1])[:TOP_N]
@@ -149,7 +164,7 @@ def render(by_bytes, by_repo_count):
     width = PANEL_W * 2
 
     return """<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Lenguajes de programación utilizados">
+<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{aria}">
   <style>
     .title {{ font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #24292f; }}
     .lang  {{ font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #24292f; }}
@@ -169,8 +184,9 @@ def render(by_bytes, by_repo_count):
 </svg>
 """.format(
         w=width, h=height, wm=width - 1, hm=height - 1,
-        left=panel("Volumen de código", top_bytes, total_bytes, "%", 0),
-        right=panel("Amplitud de uso", top_count, 0, "repos", PANEL_W),
+        aria=esc(locale["aria"]),
+        left=panel(locale["volume"], top_bytes, total_bytes, "%", 0),
+        right=panel(locale["breadth"], top_count, 0, "repos", PANEL_W),
     )
 
 
@@ -180,10 +196,11 @@ def main():
     if not by_bytes:
         sys.exit("No se obtuvieron datos de lenguajes.")
     os.makedirs(OUT_DIR, exist_ok=True)
-    path = os.path.join(OUT_DIR, "languages.svg")
-    with open(path, "w", encoding="utf-8") as handle:
-        handle.write(render(by_bytes, by_repo_count))
-    print("Generado %s (%d lenguajes)" % (path, len(by_bytes)))
+    for locale in LOCALES.values():
+        path = os.path.join(OUT_DIR, locale["file"])
+        with open(path, "w", encoding="utf-8") as handle:
+            handle.write(render(by_bytes, by_repo_count, locale))
+        print("Generado %s (%d lenguajes)" % (path, len(by_bytes)))
 
 
 if __name__ == "__main__":

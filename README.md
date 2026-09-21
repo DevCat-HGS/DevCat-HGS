@@ -1,12 +1,21 @@
+<p align="center">
+  <a href="https://github.com/DevCat-HGS/DevCat-HGS/blob/main/README.md">
+    <img src="https://img.shields.io/badge/English-0e75b6?style=flat-square" alt="Read in English"/>
+  </a>
+  <a href="https://github.com/DevCat-HGS/DevCat-HGS/blob/main/README.es.md">
+    <img src="https://img.shields.io/badge/Espa%C3%B1ol-555555?style=flat-square" alt="Leer en español"/>
+  </a>
+</p>
+
 <h1 align="center">Harold G. S.</h1>
 
 <p align="center">
-  <strong>Software Developer</strong>  ·  Full Stack  ·  Inteligencia Artificial  ·  Cloud  ·  Mobile
+  <strong>Software Developer</strong> &nbsp;·&nbsp; Full Stack &nbsp;·&nbsp; Artificial Intelligence &nbsp;·&nbsp; Cloud &nbsp;·&nbsp; Mobile
 </p>
 
 <p align="center">
-  Desarrollador de software enfocado en construir productos web, móviles y arquitecturas cloud,<br/>
-  con especial interés en la integración de IA generativa en sistemas reales.
+  Software developer focused on building web and mobile products and cloud architectures,<br/>
+  with a particular interest in bringing generative AI into real-world systems.
 </p>
 
 <p align="center">
@@ -24,27 +33,27 @@
 
 ---
 
-## Perfil
+## Profile
 
-Software Developer con experiencia en el desarrollo de aplicaciones web y móviles, trabajando
-principalmente sobre el ecosistema **JavaScript / TypeScript** con React y Node.js. He diseñado e
-implementado arquitecturas **cloud y serverless** sobre AWS, e integrado modelos de **IA generativa**
-en flujos de soporte y automatización.
+Software developer with experience building web and mobile applications, working mainly across the
+**JavaScript / TypeScript** ecosystem with React and Node.js. I have designed and implemented
+**cloud and serverless** architectures on AWS, and integrated **generative AI** models into support
+and automation workflows.
 
-Mi trabajo abarca desde interfaces de usuario y APIs hasta desarrollo de videojuegos con Unity y
-sistemas embebidos con Arduino e IoT.
+My work ranges from user interfaces and APIs to game development with Unity and embedded systems
+with Arduino and IoT.
 
-| Área | Enfoque |
+| Area | Focus |
 | :--- | :--- |
-| Full Stack | Aplicaciones web con React, Next.js, Node.js y bases de datos SQL/NoSQL |
-| Inteligencia Artificial | IA generativa, búsqueda semántica y automatización de procesos |
-| Cloud y DevOps | Arquitecturas serverless en AWS, contenedores y CI/CD |
-| Mobile | Aplicaciones multiplataforma con Flutter y desarrollo nativo Android |
-| Game Dev e IoT | Videojuegos con Unity y C#, prototipos con Arduino y sensores |
+| Full Stack | Web applications with React, Next.js, Node.js and SQL/NoSQL databases |
+| Artificial Intelligence | Generative AI, semantic search and process automation |
+| Cloud and DevOps | Serverless architectures on AWS, containers and CI/CD |
+| Mobile | Cross-platform applications with Flutter and native Android development |
+| Game Dev and IoT | Games with Unity and C#, prototypes with Arduino and sensors |
 
 ---
 
-## Tecnologías
+## Technologies
 
 **Frontend**
 
@@ -52,25 +61,25 @@ sistemas embebidos con Arduino e IoT.
   <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap,materialui" alt="HTML, CSS, Sass, Tailwind, Bootstrap, Material UI"/>
 </p>
 
-**JavaScript y TypeScript**
+**JavaScript and TypeScript**
 
 <p>
   <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,vue,nodejs,express,deno,jquery" alt="JavaScript, TypeScript, React, Next.js, Vite, Vue, Node.js, Express, Deno, jQuery"/>
 </p>
 
-**Backend y Bases de Datos**
+**Backend and Databases**
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,php,django,flask,fastapi,mongodb,mysql,postgres,sqlite,supabase,firebase" alt="Python, PHP, Django, Flask, FastAPI, MongoDB, MySQL, PostgreSQL, SQLite, Supabase, Firebase"/>
 </p>
 
-**Inteligencia Artificial y Visión por Computador**
+**Artificial Intelligence and Computer Vision**
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,anaconda" alt="Python, TensorFlow, PyTorch, OpenCV, Anaconda"/>
 </p>
 
-**Cloud, DevOps y Herramientas**
+**Cloud, DevOps and Tools**
 
 <p>
   <img src="https://skillicons.dev/icons?i=aws,docker,git,github,githubactions,npm,postman,vercel,netlify" alt="AWS, Docker, Git, GitHub, GitHub Actions, npm, Postman, Vercel, Netlify"/>
@@ -82,13 +91,13 @@ sistemas embebidos con Arduino e IoT.
   <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,kotlin" alt="Flutter, Dart, Android Studio, Kotlin"/>
 </p>
 
-**Game Development e IoT**
+**Game Development and IoT**
 
 <p>
   <img src="https://skillicons.dev/icons?i=unity,cs,cpp,arduino,threejs,blender,svg" alt="Unity, C#, C++, Arduino, Three.js, Blender, SVG"/>
 </p>
 
-**Entorno de Desarrollo**
+**Development Environment**
 
 <p>
   <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,ubuntu,arch,kali" alt="VS Code, Visual Studio, PowerShell, Windows, Linux, Ubuntu, Arch, Kali"/>
@@ -96,137 +105,137 @@ sistemas embebidos con Arduino e IoT.
 
 ---
 
-## Proyectos Destacados
+## Featured Projects
 
-| Proyecto | Descripción | Stack principal |
+| Project | Description | Main stack |
 | :--- | :--- | :--- |
-| [ARIA](#aria--asistente-inteligente-para-sap) | Asistente con IA generativa para procesos SAP | AWS, Bedrock, Python, React |
-| [Hecho en Sabaneta](#hecho-en-sabaneta) | Plataforma de comercio local con catálogo y carrito | TypeScript, Next.js, Firebase |
-| [Arcoiris Zapatería](#arcoiris-zapatería-especializada) | Sitio de servicios para taller de restauración | TypeScript, Next.js, Firebase |
-| [SENA Cloud](#sena-cloud) | Plataforma de gestión académica y administrativa | TypeScript, React, MongoDB |
-| [Chaman Tarot Dashboard](#chaman-tarot-dashboard) | Dashboard con predicciones generadas por IA | React, Supabase, Make |
-| [CashWin](#cashwin) | Videojuego multijugador de dados con pagos | Unity, C#, Photon PUN 2 |
-| [SensoresAPP](#sensoresapp) | Sistema de alerta temprana ante inundaciones | Arduino, C++, IoT |
-| [Farmacia Admin](#farmacia-admin) | Gestión de inventario y ventas para farmacias | React, JavaScript, MongoDB |
+| [ARIA](#aria--intelligent-assistant-for-sap) | Generative AI assistant for SAP processes | AWS, Bedrock, Python, React |
+| [Hecho en Sabaneta](#hecho-en-sabaneta) | Local commerce platform with catalog and cart | TypeScript, Next.js, Firebase |
+| [Arcoiris Zapatería](#arcoiris-zapatería-especializada) | Service site for a leather restoration workshop | TypeScript, Next.js, Firebase |
+| [SENA Cloud](#sena-cloud) | Academic and administrative management platform | TypeScript, React, MongoDB |
+| [Chaman Tarot Dashboard](#chaman-tarot-dashboard) | Dashboard with AI-generated predictions | React, Supabase, Make |
+| [CashWin](#cashwin) | Multiplayer dice game with payment integration | Unity, C#, Photon PUN 2 |
+| [SensoresAPP](#sensoresapp) | Early warning system for floods | Arduino, C++, IoT |
+| [Farmacia Admin](#farmacia-admin) | Inventory and sales management for pharmacies | React, JavaScript, MongoDB |
 
-### ARIA — Asistente Inteligente para SAP
+### ARIA — Intelligent Assistant for SAP
 
-Sistema de asistencia basado en IA generativa para consultas y soporte sobre procesos SAP.
+Support system powered by generative AI for queries and assistance on SAP processes.
 
 **Stack:** `AWS` `Lambda` `API Gateway` `Amazon Bedrock` `OpenSearch` `SAP` `Python` `React`
 
-- Diseño de una arquitectura serverless escalable para gestionar solicitudes de tickets y respuestas automáticas.
-- Integración de modelos de IA generativa con búsqueda en OpenSearch para entregar respuestas relevantes.
-- Desarrollo de la interfaz web para usuarios finales y consultores SAP.
-- Implementación de un flujo de escalamiento a consultor humano cuando la IA no resuelve el caso.
-- Orientado a reducir tiempos de respuesta y mejorar la calidad del soporte.
+- Designed a scalable serverless architecture to handle ticket requests and automated responses.
+- Integrated generative AI models with OpenSearch retrieval to deliver relevant answers.
+- Built the web interface for end users and SAP consultants.
+- Implemented an escalation flow to a human consultant when the AI cannot resolve a case.
+- Aimed at reducing response times and improving support quality.
 
 ### Hecho en Sabaneta
 
-Plataforma de comercio local que reúne a los emprendimientos del municipio de Sabaneta en un
-directorio con catálogo de productos, carrito de compras y publicación de eventos.
+Local commerce platform that brings together the businesses of the municipality of Sabaneta into a
+directory with a product catalog, shopping cart and event publishing.
 
-**Sitio:** [hechoensabaneta.com](https://hechoensabaneta.com) &nbsp;·&nbsp;
+**Site:** [hechoensabaneta.com](https://hechoensabaneta.com) &nbsp;·&nbsp;
 **Stack:** `TypeScript` `Next.js` `Firebase` `Google Cloud`
 
-- Directorio de negocios organizado por categorías como gastronomía, tecnología y hogar.
-- Catálogo de productos por emprendimiento con carrito de compras.
-- Sección editorial para eventos y noticias del municipio.
-- Registro autogestionado para que cada negocio publique su propio perfil.
-- Backend sobre Firebase y despliegue en Google Cloud.
+- Business directory organized by categories such as food, technology and home goods.
+- Product catalog per business with a shopping cart.
+- Editorial section for local events and news.
+- Self-service registration so each business can publish its own profile.
+- Firebase backend with deployment on Google Cloud.
 
 ### Arcoiris Zapatería Especializada
 
-Sitio web para un taller familiar de Medellín con cuarenta años de trayectoria, dedicado a la
-reparación y restauración de calzado, bolsos y artículos de cuero.
+Website for a family-run workshop in Medellín with forty years of experience, dedicated to the
+repair and restoration of footwear, bags and leather goods.
 
-**Sitio:** [arcoiriszapateria.com](https://arcoiriszapateria.com) &nbsp;·&nbsp;
+**Site:** [arcoiriszapateria.com](https://arcoiriszapateria.com) &nbsp;·&nbsp;
 **Stack:** `TypeScript` `Next.js` `Firebase` `Google Cloud`
 
-- Catálogo de más de cincuenta servicios con guía, diagnóstico y materiales de cada oficio.
-- Galería comparativa de antes y después con control deslizante sobre fotografías del taller.
-- Diagnóstico guiado que orienta al cliente hasta una cotización por WhatsApp.
-- Filtrado de trabajos por categoría e información de las dos sedes.
-- Optimización para búsqueda local en el Valle de Aburrá.
+- Catalog of more than fifty services, each with its guide, diagnosis and materials.
+- Before-and-after gallery with a drag comparison slider over real workshop photographs.
+- Guided diagnosis that leads the customer to a WhatsApp quote.
+- Filtering of past work by category, plus information for both locations.
+- Optimized for local search across the Aburrá Valley.
 
 ### SENA Cloud
 
-Aplicación web integral para la organización académica y administrativa, que permite a instructores,
-administradores y superadministradores coordinar sus responsabilidades desde una única plataforma.
+Comprehensive web application for academic and administrative organization, allowing instructors,
+administrators and superadministrators to coordinate their responsibilities from a single platform.
 
 **Stack:** `TypeScript` `JavaScript` `React` `MongoDB` `Tailwind CSS`
 
-- Sistema con múltiples niveles de usuario y control de permisos.
-- Gestión centralizada de información académica y administrativa.
-- Interfaz moderna y responsive.
+- System with multiple user levels and permission control.
+- Centralized management of academic and administrative information.
+- Modern, responsive interface.
 
 ### Chaman Tarot Dashboard
 
-Dashboard para servicios de tarot que utiliza IA para generar predicciones personalizadas.
+Dashboard for tarot services that uses AI to generate personalized predictions.
 
-**Stack:** `React` `Supabase` `Make` `IA` `Automatización`
+**Stack:** `React` `Supabase` `Make` `AI` `Automation`
 
-- Panel web para la gestión y el seguimiento de lecturas.
-- Generación de predicciones personalizadas mediante IA.
-- Automatización de procesos con Make y persistencia de datos en Supabase.
+- Web panel for managing and tracking readings.
+- Personalized prediction generation through AI.
+- Process automation with Make and data persistence in Supabase.
 
 ### CashWin
 
-Videojuego multiplataforma basado en el juego tradicional de dados, con mecánicas de apuestas en tiempo real.
+Cross-platform game based on the traditional dice game, with real-time betting mechanics.
 
 **Stack:** `Unity` `C#` `Photon PUN 2` `MercadoPago` `Multiplayer`
 
-- Sistema multijugador en tiempo real mediante Photon PUN 2.
-- Integración con MercadoPago para el procesamiento de pagos.
-- Arquitectura orientada a partidas y eventos en tiempo real.
+- Real-time multiplayer system using Photon PUN 2.
+- MercadoPago integration for payment processing.
+- Architecture built around matches and real-time events.
 
 ### SensoresAPP
 
-Proyecto educativo desarrollado con Arduino para la prevención de inundaciones en comunidades cercanas.
+Educational project built with Arduino for flood prevention in nearby communities.
 
-**Stack:** `Arduino` `C++` `Sensores` `IoT`
+**Stack:** `Arduino` `C++` `Sensors` `IoT`
 
-- Monitoreo de niveles de agua mediante sensores.
-- Detección de condiciones de riesgo y sistema de advertencia temprana.
-- Enfoque en prevención y educación comunitaria.
+- Water level monitoring through sensors.
+- Risk condition detection and early warning system.
+- Focused on prevention and community education.
 
 ### Farmacia Admin
 
-Sistema privado de administración y gestión de bodega para farmacias.
+Private administration and warehouse management system for pharmacies.
 
 **Stack:** `React` `JavaScript` `MongoDB`
 
-- Gestión de inventario de medicamentos y control de stock.
-- Registro de ventas y generación de reportes administrativos.
-- Autenticación y panel de administración para uso interno.
+- Medication inventory management and stock control.
+- Sales tracking and administrative reporting.
+- Authentication and admin panel for internal use.
 
 ---
 
-## Estadísticas de GitHub
+## GitHub Statistics
 
 <p align="center">
-  <img src="./profile/languages.svg" width="92%" alt="Lenguajes por volumen de código y por número de repositorios"/>
+  <img src="./profile/languages.svg" width="92%" alt="Languages by code volume and by number of repositories"/>
 </p>
 
-## Contribucion de GitHub
+## GitHub Contributions
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DevCat-HGS&hide_border=true&theme=dark" width="60%" alt="Racha de contribuciones"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DevCat-HGS&hide_border=true&theme=dark" width="60%" alt="Contribution streak"/>
 </p>
 
 ---
 
-## Actualmente Explorando
+## Currently Exploring
 
-- IA generativa y sus aplicaciones en producto.
-- Arquitecturas serverless y servicios de AWS.
-- Desarrollo full stack con TypeScript.
-- Flutter y desarrollo móvil multiplataforma.
-- Linux, ciberseguridad y prácticas DevOps.
+- Generative AI and its applications in product work.
+- Serverless architectures and AWS services.
+- Full stack development with TypeScript.
+- Flutter and cross-platform mobile development.
+- Linux, cybersecurity and DevOps practices.
 
 ---
 
-## Contacto
+## Contact
 
 <p align="center">
   <a href="https://github.com/DevCat-HGS">
@@ -238,5 +247,5 @@ Sistema privado de administración y gestión de bodega para farmacias.
 </p>
 
 <p align="center">
-  <sub>Gracias por visitar mi perfil.</sub>
+  <sub>Thanks for visiting my profile.</sub>
 </p>
