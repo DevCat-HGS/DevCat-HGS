@@ -101,6 +101,8 @@ sistemas embebidos con Arduino e IoT.
 | Proyecto | Descripción | Stack principal |
 | :--- | :--- | :--- |
 | [ARIA](#aria--asistente-inteligente-para-sap) | Asistente con IA generativa para procesos SAP | AWS, Bedrock, Python, React |
+| [Hecho en Sabaneta](#hecho-en-sabaneta) | Plataforma de comercio local con catálogo y carrito | TypeScript, Next.js, Firebase |
+| [Arcoiris Zapatería](#arcoiris-zapatería-especializada) | Sitio de servicios para taller de restauración | TypeScript, Next.js, Firebase |
 | [SENA Cloud](#sena-cloud) | Plataforma de gestión académica y administrativa | TypeScript, React, MongoDB |
 | [Chaman Tarot Dashboard](#chaman-tarot-dashboard) | Dashboard con predicciones generadas por IA | React, Supabase, Make |
 | [CashWin](#cashwin) | Videojuego multijugador de dados con pagos | Unity, C#, Photon PUN 2 |
@@ -118,6 +120,34 @@ Sistema de asistencia basado en IA generativa para consultas y soporte sobre pro
 - Desarrollo de la interfaz web para usuarios finales y consultores SAP.
 - Implementación de un flujo de escalamiento a consultor humano cuando la IA no resuelve el caso.
 - Orientado a reducir tiempos de respuesta y mejorar la calidad del soporte.
+
+### Hecho en Sabaneta
+
+Plataforma de comercio local que reúne a los emprendimientos del municipio de Sabaneta en un
+directorio con catálogo de productos, carrito de compras y publicación de eventos.
+
+**Sitio:** [hechoensabaneta.com](https://hechoensabaneta.com) &nbsp;·&nbsp;
+**Stack:** `TypeScript` `Next.js` `Firebase` `Google Cloud`
+
+- Directorio de negocios organizado por categorías como gastronomía, tecnología y hogar.
+- Catálogo de productos por emprendimiento con carrito de compras.
+- Sección editorial para eventos y noticias del municipio.
+- Registro autogestionado para que cada negocio publique su propio perfil.
+- Backend sobre Firebase y despliegue en Google Cloud.
+
+### Arcoiris Zapatería Especializada
+
+Sitio web para un taller familiar de Medellín con cuarenta años de trayectoria, dedicado a la
+reparación y restauración de calzado, bolsos y artículos de cuero.
+
+**Sitio:** [arcoiriszapateria.com](https://arcoiriszapateria.com) &nbsp;·&nbsp;
+**Stack:** `TypeScript` `Next.js` `Firebase` `Google Cloud`
+
+- Catálogo de más de cincuenta servicios con guía, diagnóstico y materiales de cada oficio.
+- Galería comparativa de antes y después con control deslizante sobre fotografías del taller.
+- Diagnóstico guiado que orienta al cliente hasta una cotización por WhatsApp.
+- Filtrado de trabajos por categoría e información de las dos sedes.
+- Optimización para búsqueda local en el Valle de Aburrá.
 
 ### SENA Cloud
 
