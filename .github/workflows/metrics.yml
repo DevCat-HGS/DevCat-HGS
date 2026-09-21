@@ -1,0 +1,59 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/metrics.yml
+      - scripts/generate_language_charts.py
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: General stats
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          filename: profile/stats.svg
+          user: DevCat-HGS
+          base: header, activity, community, repositories
+          config_timezone: America/Bogota
+          repositories_skipped: DevCat-HGS/GameDB
+
+      - name: Contribution calendar
+        uses: lowlighter/metrics@v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          filename: profile/calendar.svg
+          user: DevCat-HGS
+          base: ""
+          config_timezone: America/Bogota
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Language charts
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_language_charts.py
+
+      - name: Commit charts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/languages.svg
+          git diff --quiet --cached || git commit -m "chore: update language charts"
+          git pull --rebase --autostash
+          git push
