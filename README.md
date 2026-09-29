@@ -105,6 +105,18 @@ with Arduino and IoT.
 
 ---
 
+## Corporate Experience
+
+### Mitsubishi Electric de Colombia — Software Developer, SAP / SAP Fiori
+
+**Bello, Colombia** &nbsp;·&nbsp; Jan 2026 – Jul 2026
+
+- Led, together with the team, the full-stack migration of SAP services for five business areas, keeping operations running while adapting each service to its specific needs.
+- Developed and refined OData services and SAP Fiori / SAPUI5 applications, reducing data overhead and keeping the codebase clean and maintainable.
+- Diagnosed and resolved incidents in SAP features and services, validating results with functional tests before production release.
+
+---
+
 ## Featured Projects
 
 | Project | Description | Main stack |
@@ -243,6 +255,9 @@ Private administration and warehouse management system for pharmacies.
   </a>
   <a href="https://www.linkedin.com/in/harold-salgado-498a60354/">
     <img src="https://img.shields.io/badge/LinkedIn-Harold%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:haroldguerrerosena@gmail.com">
+    <img src="https://img.shields.io/badge/Email-haroldguerrerosena%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
 
