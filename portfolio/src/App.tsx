@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import { copy, type Locale } from "./content";
 
-const SECTION_IDS = ["intro", "practice", "tenure", "selected", "stack", "close"] as const;
+const SECTION_IDS = ["intro", "practice", "startup", "tenure", "selected", "stack", "close"] as const;
 
 function sectionProgress(el: HTMLElement | null) {
   if (!el) return 0;
@@ -11,14 +11,12 @@ function sectionProgress(el: HTMLElement | null) {
   return passed / total;
 }
 
-/** Drives --p and --intro on :root; only the tenure beat index goes through React state. */
+/** Drives --p and --intro on :root. */
 function useScrollScene() {
-  const [beat, setBeat] = useState(0);
 
   useEffect(() => {
     const root = document.documentElement;
     const intro = document.getElementById("intro");
-    const tenure = document.getElementById("tenure");
     let frame = 0;
 
     const update = () => {
@@ -26,8 +24,6 @@ function useScrollScene() {
       const max = root.scrollHeight - window.innerHeight;
       root.style.setProperty("--p", (max > 0 ? window.scrollY / max : 0).toFixed(4));
       root.style.setProperty("--intro", sectionProgress(intro).toFixed(4));
-      const t = sectionProgress(tenure);
-      setBeat(t < 0.33 ? 0 : t < 0.66 ? 1 : 2);
     };
 
     const schedule = () => {
@@ -44,7 +40,6 @@ function useScrollScene() {
     };
   }, []);
 
-  return beat;
 }
 
 function useActiveSection() {
@@ -109,7 +104,7 @@ export default function App() {
   const [locale, setLocale] = useState<Locale>("en");
   const t = useMemo(() => copy[locale], [locale]);
   const active = useActiveSection();
-  const beat = useScrollScene();
+  useScrollScene();
   useReveal();
   useSpotlight();
 
@@ -176,6 +171,10 @@ export default function App() {
               <span className="line-2">{t.heroName[1]}</span>
             </h1>
             <p className="lede">{t.heroDek}</p>
+            <a className="now" href="#startup">
+              <i aria-hidden="true" />
+              {t.heroNow}
+            </a>
             <div className="hero-foot">
               <div className="meta">
                 {t.heroMeta.map((m) => (
@@ -211,10 +210,59 @@ export default function App() {
         </div>
       </section>
 
+      <section className="section" id="startup">
+        <div className="wrap">
+          <div className="section-head" data-reveal>
+            <p className="eyebrow">{t.startupEyebrow}</p>
+            <div className="startup-top">
+              <img className="app-icon" src="migozz-icon.png" alt="" width={72} height={72} />
+              <h2 className="display">{t.startupCompany}</h2>
+              <span className="status">
+                <i aria-hidden="true" />
+                {t.startupStatus}
+              </span>
+            </div>
+            <p className="role">
+              {t.startupRole}
+              <br />
+              {t.startupPeriod}
+            </p>
+            <p className="lede">{t.startupBody}</p>
+            <div className="stores">
+              <a href={t.startupLinks.play} target="_blank" rel="noreferrer" aria-label="Google Play">
+                <img src="play.png" alt="Google Play" height={48} />
+              </a>
+              <a href={t.startupLinks.apple} target="_blank" rel="noreferrer" aria-label="App Store">
+                <img src="appstore.svg" alt="App Store" height={40} />
+              </a>
+              <a className="web-link" href={t.startupLinks.web} target="_blank" rel="noreferrer">
+                {t.startupWeb} ↗
+              </a>
+            </div>
+          </div>
+          <div className="duties" data-reveal="stagger">
+            {t.startupDuties.map((d, idx) => (
+              <article className="card" key={d.n} style={stagger(idx)}>
+                <span className="k">
+                  {d.n}  ·  {d.k}
+                </span>
+                <p className="v">{d.v}</p>
+              </article>
+            ))}
+          </div>
+          <div className="tags startup-stack">
+            {t.startupStack.map((s) => (
+              <span key={s}>{s}</span>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="tenure" id="tenure">
         <div className="wrap tenure-sticky">
           <div>
             <p className="eyebrow">{t.tenureEyebrow}</p>
+            <span className="status past">{t.tenureStatus}</span>
             <h2 className="display company">{t.tenureCompany}</h2>
             <p className="role">
               {t.tenureRole}
@@ -223,8 +271,8 @@ export default function App() {
             </p>
           </div>
           <div className="beats">
-            {t.tenureBeats.map((b, idx) => (
-              <article className={idx === beat ? "beat is-on" : "beat"} key={b.n}>
+            {t.tenureBeats.map((b) => (
+              <article className="beat" key={b.n}>
                 <span className="n">{b.n}</span>
                 <div>
                   <h3>{b.title}</h3>
@@ -247,8 +295,14 @@ export default function App() {
             {t.projects.map((p, idx) => {
               const inner = (
                 <>
+                  {"shot" in p && p.shot ? (
+                    <img className="shot" src={p.shot} alt="" loading="lazy" />
+                  ) : null}
                   <div>
-                    <span className="tag">{p.tag}</span>
+                    <div className="project-top">
+                      <span className="tag">{p.tag}</span>
+                      <span className="idx">{String(idx + 1).padStart(2, "0")}</span>
+                    </div>
                     <h3>{p.title}</h3>
                     <p className="dek">{p.dek}</p>
                   </div>
@@ -266,7 +320,7 @@ export default function App() {
               if ("href" in p && p.href) {
                 return (
                   <a
-                    className={`project ${p.size}`}
+                    className="project"
                     key={p.id}
                     href={p.href}
                     target="_blank"
@@ -279,7 +333,7 @@ export default function App() {
               }
 
               return (
-                <article className={`project ${p.size}`} key={p.id} style={stagger(idx)}>
+                <article className="project" key={p.id} style={stagger(idx)}>
                   {inner}
                 </article>
               );
