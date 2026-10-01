@@ -107,6 +107,33 @@ sistemas embebidos con Arduino e IoT.
 
 ## Experiencia Corporativa
 
+### MIGOZZ — Desarrollador Full Stack
+
+**Startup** &nbsp;·&nbsp; 28 sep. 2026 – Actualidad
+
+Plataforma social para creadores, influencers, marcas y artistas, disponible en Android, iOS y Web.
+
+<p>
+  <a href="https://play.google.com/store/apps/details?id=com.migozz.migozzApp">
+    <img src="https://img.shields.io/badge/Google%20Play-MIGOZZ-34A853?style=flat-square&logo=googleplay&logoColor=white" alt="MIGOZZ en Google Play"/>
+  </a>
+  <a href="https://apps.apple.com/co/app/migozz/id6502121020">
+    <img src="https://img.shields.io/badge/App%20Store-MIGOZZ-0D96F6?style=flat-square&logo=appstore&logoColor=white" alt="MIGOZZ en la App Store"/>
+  </a>
+  <a href="https://migozz.com">
+    <img src="https://img.shields.io/badge/Web-migozz.com-8A2BE2?style=flat-square&logo=googlechrome&logoColor=white" alt="migozz.com"/>
+  </a>
+</p>
+
+- Mantenimiento del producto en vivo en Android, iOS y Web.
+- QA testing de nuevas funcionalidades y pruebas de regresión antes de cada entrega.
+- Desarrollo full stack de nuevas funcionalidades.
+- Resolución de issues y entrega de correcciones mediante pull requests.
+
+**Stack:** `Flutter` `Dart` `Firebase` `Cloud Functions` `Stripe`
+
+---
+
 ### Mitsubishi Electric de Colombia — Desarrollador de Software, SAP / SAP Fiori
 
 **Bello, Colombia** &nbsp;·&nbsp; ene. 2026 – jul. 2026
