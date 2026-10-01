@@ -592,14 +592,87 @@ img {
   margin-bottom: 1rem;
 }
 
-.project .shot {
+.media {
+  position: relative;
+  margin: 0 0 1.1rem;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: var(--r-sm);
+  border: 1px solid var(--line);
+  background: var(--bg-elev);
+}
+
+.media img {
   display: block;
-  width: calc(100% + 2.9rem);
-  margin: -1.4rem -1.45rem 1.1rem;
-  aspect-ratio: 16 / 8;
+  width: 100%;
+  height: calc(100% - 26px);
   object-fit: cover;
   object-position: top;
+  transition: transform 0.6s var(--ease);
+}
+
+.project:hover .media img {
+  transform: scale(1.03);
+}
+
+.chrome {
+  height: 26px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px;
+  background: rgba(242, 238, 230, 0.06);
   border-bottom: 1px solid var(--line);
+}
+
+.chrome i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--line-strong);
+}
+
+.chrome span {
+  margin-left: 8px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  color: var(--ink-dim);
+}
+
+.media.art {
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(120% 90% at 20% 0%, hsl(var(--h) 80% 60% / 0.38), transparent 60%),
+    radial-gradient(90% 80% at 100% 100%, hsl(calc(var(--h) + 50) 80% 55% / 0.28), transparent 60%),
+    var(--bg-elev);
+}
+
+.media.art::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 28px 28px;
+  mask-image: radial-gradient(circle at center, #000, transparent 75%);
+  -webkit-mask-image: radial-gradient(circle at center, #000, transparent 75%);
+}
+
+.media.art span {
+  position: relative;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(3.4rem, 8vw, 5.2rem);
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  color: hsl(var(--h) 90% 88%);
+}
+
+.project > div:last-child {
+  margin-top: auto;
+  padding-top: 1.1rem;
 }
 
 .startup-top h2 {
@@ -709,11 +782,9 @@ img {
 }
 
 .project {
-  min-height: 15rem;
-  padding: 1.4rem 1.45rem 1.3rem;
+  padding: 1rem 1rem 1.3rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   text-align: left;
 }
 
@@ -750,6 +821,20 @@ img {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-dim);
+}
+
+.project-top,
+.project h3,
+.project .dek {
+  padding-inline: 0.45rem;
+}
+
+.project .tags {
+  padding-inline: 0.45rem;
+}
+
+.project .visit {
+  padding-inline: 0.45rem;
 }
 
 .project h3 {

@@ -296,8 +296,31 @@ export default function App() {
               const inner = (
                 <>
                   {"shot" in p && p.shot ? (
-                    <img className="shot" src={p.shot} alt="" loading="lazy" />
-                  ) : null}
+                    <figure className="media">
+                      <div className="chrome" aria-hidden="true">
+                        <i />
+                        <i />
+                        <i />
+                        <span>{"href" in p && p.href ? new URL(p.href).host : ""}</span>
+                      </div>
+                      <img
+                        src={p.shot}
+                        alt={"alt" in p ? p.alt : ""}
+                        width={960}
+                        height={600}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </figure>
+                  ) : (
+                    <div
+                      className="media art"
+                      aria-hidden="true"
+                      style={{ ["--h" as string]: "hue" in p ? p.hue : 260 } as CSSProperties}
+                    >
+                      <span>{p.title.replace(/[^A-Za-z]/g, "").slice(0, 2)}</span>
+                    </div>
+                  )}
                   <div>
                     <div className="project-top">
                       <span className="tag">{p.tag}</span>

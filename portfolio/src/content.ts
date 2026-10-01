@@ -86,6 +86,7 @@ export const copy = {
       {
         id: "sabaneta",
         shot: "shots/sabaneta.jpg",
+        alt: "Screenshot of the Hecho en Sabaneta home page",
         tag: "Commerce  ·  Live",
         title: "Hecho en Sabaneta",
         dek: "Local commerce platform: directory, catalog, cart, and events for the municipality.",
@@ -95,6 +96,7 @@ export const copy = {
       {
         id: "arcoiris",
         shot: "shots/arcoiris.jpg",
+        alt: "Screenshot of the Arcoiris Zapatería home page",
         tag: "Services  ·  Live",
         title: "Arcoiris Zapatería",
         dek: "Service site for a family workshop in Medellín. Fifty-plus trades, before/after, guided diagnosis to WhatsApp.",
@@ -103,6 +105,7 @@ export const copy = {
       },
       {
         id: "aria",
+        hue: 265,
         tag: "Generative AI  ·  SAP",
         title: "ARIA",
         dek: "Intelligent assistant for SAP processes. Serverless on AWS, Bedrock, OpenSearch, and a human escalation path when the model cannot close the ticket.",
@@ -110,6 +113,7 @@ export const copy = {
       },
       {
         id: "sena",
+        hue: 150,
         tag: "Platform",
         title: "SENA Cloud",
         dek: "Academic and administrative ops for instructors, admins, and superadmins.",
@@ -117,6 +121,7 @@ export const copy = {
       },
       {
         id: "chaman",
+        hue: 300,
         tag: "AI  ·  Ops",
         title: "Chaman Tarot",
         dek: "Dashboard for readings. Predictions via AI, automation with Make, data on Supabase.",
@@ -124,6 +129,7 @@ export const copy = {
       },
       {
         id: "cashwin",
+        hue: 25,
         tag: "Game",
         title: "CashWin",
         dek: "Realtime multiplayer dice. Photon PUN 2, MercadoPago, Unity and C#.",
@@ -131,6 +137,7 @@ export const copy = {
       },
       {
         id: "sensores",
+        hue: 195,
         tag: "IoT",
         title: "SensoresAPP",
         dek: "Arduino flood early-warning for nearby communities.",
@@ -138,6 +145,7 @@ export const copy = {
       },
       {
         id: "farmacia",
+        hue: 170,
         tag: "Internal",
         title: "Farmacia Admin",
         dek: "Private inventory, sales, and reporting for pharmacies.",
@@ -252,6 +260,7 @@ export const copy = {
       {
         id: "sabaneta",
         shot: "shots/sabaneta.jpg",
+        alt: "Captura de la página de inicio de Hecho en Sabaneta",
         tag: "Comercio  ·  En vivo",
         title: "Hecho en Sabaneta",
         dek: "Plataforma de comercio local: directorio, catálogo, carrito y eventos del municipio.",
@@ -261,6 +270,7 @@ export const copy = {
       {
         id: "arcoiris",
         shot: "shots/arcoiris.jpg",
+        alt: "Captura de la página de inicio de Arcoiris Zapatería",
         tag: "Servicios  ·  En vivo",
         title: "Arcoiris Zapatería",
         dek: "Sitio de servicios para un taller familiar en Medellín. Más de cincuenta oficios, antes/después, diagnóstico guiado a WhatsApp.",
@@ -269,6 +279,7 @@ export const copy = {
       },
       {
         id: "aria",
+        hue: 265,
         tag: "IA generativa  ·  SAP",
         title: "ARIA",
         dek: "Asistente inteligente para procesos SAP. Serverless en AWS, Bedrock, OpenSearch, y un escalamiento humano cuando el modelo no cierra el ticket.",
@@ -276,6 +287,7 @@ export const copy = {
       },
       {
         id: "sena",
+        hue: 150,
         tag: "Plataforma",
         title: "SENA Cloud",
         dek: "Operación académica y administrativa para instructores, admins y superadmins.",
@@ -283,6 +295,7 @@ export const copy = {
       },
       {
         id: "chaman",
+        hue: 300,
         tag: "IA  ·  Ops",
         title: "Chaman Tarot",
         dek: "Dashboard de lecturas. Predicciones con IA, automatización con Make, datos en Supabase.",
@@ -290,6 +303,7 @@ export const copy = {
       },
       {
         id: "cashwin",
+        hue: 25,
         tag: "Juego",
         title: "CashWin",
         dek: "Dados multijugador en tiempo real. Photon PUN 2, MercadoPago, Unity y C#.",
@@ -297,6 +311,7 @@ export const copy = {
       },
       {
         id: "sensores",
+        hue: 195,
         tag: "IoT",
         title: "SensoresAPP",
         dek: "Alerta temprana de inundaciones con Arduino para comunidades cercanas.",
@@ -304,6 +319,7 @@ export const copy = {
       },
       {
         id: "farmacia",
+        hue: 170,
         tag: "Interno",
         title: "Farmacia Admin",
         dek: "Inventario, ventas y reportes privados para farmacias.",
