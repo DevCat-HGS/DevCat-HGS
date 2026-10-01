@@ -105,6 +105,8 @@ export const copy = {
       },
       {
         id: "aria",
+        client: "Arix Group",
+        clientHref: "https://arixgroup.com.co/",
         hue: 265,
         tag: "Generative AI  ·  SAP",
         title: "ARIA",
@@ -113,14 +115,19 @@ export const copy = {
       },
       {
         id: "sena",
+        client: "Built during my training at SENA",
+        institutional: true,
+        href: "https://senacloud.netlify.app/",
+        logo: "sena-logo.svg",
         hue: 150,
-        tag: "Platform",
+        tag: "Platform  ·  Live",
         title: "SENA Cloud",
         dek: "Academic and administrative ops for instructors, admins, and superadmins.",
         stack: ["TypeScript", "React", "MongoDB"],
       },
       {
         id: "chaman",
+        client: "Inversiones Amazónica S.A.S.",
         hue: 300,
         tag: "AI  ·  Ops",
         title: "Chaman Tarot",
@@ -129,6 +136,7 @@ export const copy = {
       },
       {
         id: "cashwin",
+        client: "Inversiones Amazónica S.A.S.",
         hue: 25,
         tag: "Game",
         title: "CashWin",
@@ -137,6 +145,9 @@ export const copy = {
       },
       {
         id: "sensores",
+        client: "Built during my training at SENA",
+        institutional: true,
+        logo: "sena-logo.svg",
         hue: 195,
         tag: "IoT",
         title: "SensoresAPP",
@@ -145,6 +156,7 @@ export const copy = {
       },
       {
         id: "farmacia",
+        client: "Droguería Medifarma",
         hue: 170,
         tag: "Internal",
         title: "Farmacia Admin",
@@ -174,6 +186,10 @@ export const copy = {
     ],
     footer: "Harold G. Salgado  ·  Software Engineer",
     visit: "Open site",
+    clientLabel: "Client",
+    institutionalLabel: "Institutional project",
+    trademarkNote:
+      "SENA and its logo are the property of Servicio Nacional de Aprendizaje. They are used here only to identify the institution these projects were built for, and do not imply endorsement.",
   },
   es: {
     skip: "Saltar al contenido",
@@ -279,6 +295,8 @@ export const copy = {
       },
       {
         id: "aria",
+        client: "Arix Group",
+        clientHref: "https://arixgroup.com.co/",
         hue: 265,
         tag: "IA generativa  ·  SAP",
         title: "ARIA",
@@ -287,14 +305,19 @@ export const copy = {
       },
       {
         id: "sena",
+        client: "Desarrollado durante mi formación en el SENA",
+        institutional: true,
+        href: "https://senacloud.netlify.app/",
+        logo: "sena-logo.svg",
         hue: 150,
-        tag: "Plataforma",
+        tag: "Plataforma  ·  En vivo",
         title: "SENA Cloud",
         dek: "Operación académica y administrativa para instructores, admins y superadmins.",
         stack: ["TypeScript", "React", "MongoDB"],
       },
       {
         id: "chaman",
+        client: "Inversiones Amazónica S.A.S.",
         hue: 300,
         tag: "IA  ·  Ops",
         title: "Chaman Tarot",
@@ -303,6 +326,7 @@ export const copy = {
       },
       {
         id: "cashwin",
+        client: "Inversiones Amazónica S.A.S.",
         hue: 25,
         tag: "Juego",
         title: "CashWin",
@@ -311,6 +335,9 @@ export const copy = {
       },
       {
         id: "sensores",
+        client: "Desarrollado durante mi formación en el SENA",
+        institutional: true,
+        logo: "sena-logo.svg",
         hue: 195,
         tag: "IoT",
         title: "SensoresAPP",
@@ -319,6 +346,7 @@ export const copy = {
       },
       {
         id: "farmacia",
+        client: "Droguería Medifarma",
         hue: 170,
         tag: "Interno",
         title: "Farmacia Admin",
@@ -348,5 +376,9 @@ export const copy = {
     ],
     footer: "Harold G. Salgado  ·  Software Engineer",
     visit: "Abrir sitio",
+    clientLabel: "Cliente",
+    institutionalLabel: "Proyecto institucional",
+    trademarkNote:
+      "SENA y su logo son propiedad del Servicio Nacional de Aprendizaje. Se usan aquí solo para identificar la institución para la que se desarrollaron estos proyectos, y no implican respaldo.",
   },
 } as const;

@@ -98,6 +98,30 @@ function useSpotlight() {
   }, []);
 }
 
+const ICONS = {
+  GitHub:
+    "M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12",
+  LinkedIn:
+    "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z",
+} as const;
+
+function Socials({ links }: { links: readonly { label: string; href: string }[] }) {
+  return (
+    <div className="socials">
+      {links
+        .filter((l): l is { label: keyof typeof ICONS; href: string } => l.label in ICONS)
+        .map((l) => (
+          <a key={l.label} className="social-btn" href={l.href} target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor">
+              <path d={ICONS[l.label]} />
+            </svg>
+            {l.label}
+          </a>
+        ))}
+    </div>
+  );
+}
+
 const stagger = (i: number) => ({ ["--i" as string]: i }) as CSSProperties;
 
 export default function App() {
@@ -171,10 +195,13 @@ export default function App() {
               <span className="line-2">{t.heroName[1]}</span>
             </h1>
             <p className="lede">{t.heroDek}</p>
-            <a className="now" href="#startup">
-              <i aria-hidden="true" />
-              {t.heroNow}
-            </a>
+            <div className="hero-actions">
+              <a className="now" href="#startup">
+                <i aria-hidden="true" />
+                {t.heroNow}
+              </a>
+              <Socials links={t.links} />
+            </div>
             <div className="hero-foot">
               <div className="meta">
                 {t.heroMeta.map((m) => (
@@ -318,7 +345,17 @@ export default function App() {
                       aria-hidden="true"
                       style={{ ["--h" as string]: "hue" in p ? p.hue : 260 } as CSSProperties}
                     >
-                      <span>{p.title.replace(/[^A-Za-z]/g, "").slice(0, 2)}</span>
+                      {"logo" in p && p.logo ? (
+                        <img
+                          className="logo"
+                          src={p.logo}
+                          alt=""
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      ) : (
+                        <span>{p.title.replace(/[^A-Za-z]/g, "").slice(0, 2)}</span>
+                      )}
                     </div>
                   )}
                   <div>
@@ -330,6 +367,18 @@ export default function App() {
                     <p className="dek">{p.dek}</p>
                   </div>
                   <div>
+                    {"client" in p && p.client ? (
+                      <p className="client">
+                        <span>{"institutional" in p && p.institutional ? t.institutionalLabel : t.clientLabel}</span>
+                        {"clientHref" in p && p.clientHref && !("href" in p) ? (
+                          <a href={p.clientHref} target="_blank" rel="noreferrer">
+                            {p.client} ↗
+                          </a>
+                        ) : (
+                          p.client
+                        )}
+                      </p>
+                    ) : null}
                     <div className="tags">
                       {p.stack.map((s) => (
                         <span key={s}>{s}</span>
@@ -362,6 +411,7 @@ export default function App() {
               );
             })}
           </div>
+          <p className="legal">{t.trademarkNote}</p>
         </div>
       </section>
 
@@ -390,8 +440,11 @@ export default function App() {
           <a className="mail" href={`mailto:${t.email}`}>
             {t.email}
           </a>
+          <Socials links={t.links} />
           <div className="outlinks">
-            {t.links.map((l) => (
+            {t.links
+              .filter((l) => l.label !== "GitHub" && l.label !== "LinkedIn")
+              .map((l) => (
               <a key={l.href} href={l.href} target="_blank" rel="noreferrer">
                 {l.label}
               </a>
