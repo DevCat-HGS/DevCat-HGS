@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState, type CSSProperties } from "react";
 import { copy, type Locale } from "./content";
 
-const SECTION_IDS = ["intro", "practice", "startup", "tenure", "selected", "stack", "close"] as const;
+const SECTION_IDS = ["intro", "practice", "startup", "tenure", "selected", "credentials", "stack", "close"] as const;
 
 function sectionProgress(el: HTMLElement | null) {
   if (!el) return 0;
@@ -65,9 +65,9 @@ function useActiveSection() {
   return id;
 }
 
-function useReveal() {
+function useReveal(locale: string) {
   useEffect(() => {
-    const nodes = document.querySelectorAll<HTMLElement>("[data-reveal]");
+    const nodes = document.querySelectorAll<HTMLElement>("[data-reveal]:not(.is-in)");
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => {
@@ -80,7 +80,7 @@ function useReveal() {
     );
     nodes.forEach((n) => io.observe(n));
     return () => io.disconnect();
-  }, []);
+  }, [locale]);
 }
 
 function useSpotlight() {
@@ -134,22 +134,52 @@ function Socials({
   );
 }
 
+type CredItem = { img: string; title: string; meta: string };
+
+function Lightbox({ item, close, label }: { item: CredItem; close: () => void; label: string }) {
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && close();
+    document.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
+    };
+  }, [close]);
+
+  return (
+    <div className="lightbox" role="dialog" aria-modal="true" aria-label={item.title} onClick={close}>
+      <figure onClick={(e) => e.stopPropagation()}>
+        <img src={`credentials/${item.img}.jpg`} alt={item.title} />
+        <figcaption>
+          <strong>{item.title}</strong>
+          <span>{item.meta}</span>
+        </figcaption>
+      </figure>
+      <button type="button" className="lightbox-close" onClick={close} autoFocus>
+        {label}
+      </button>
+    </div>
+  );
+}
+
 const stagger = (i: number) => ({ ["--i" as string]: i }) as CSSProperties;
 
 export default function App() {
   const [locale, setLocale] = useState<Locale>("en");
   const t = useMemo(() => copy[locale], [locale]);
+  const [open, setOpen] = useState<CredItem | null>(null);
   const active = useActiveSection();
   useScrollScene();
-  useReveal();
+  useReveal(locale);
   useSpotlight();
 
   useEffect(() => {
     document.documentElement.lang = locale;
     document.title =
       locale === "es"
-        ? "Harold G. Salgado — Software Engineer"
-        : "Harold G. Salgado — Software Engineer";
+        ? "Harol G. Salgado — Software Engineer"
+        : "Harol G. Salgado — Software Engineer";
   }, [locale]);
 
   return (
@@ -427,6 +457,45 @@ export default function App() {
         </div>
       </section>
 
+      <section className="section" id="credentials">
+        <div className="wrap">
+          <div className="section-head" data-reveal>
+            <p className="eyebrow">{t.credEyebrow}</p>
+            <h2 className="display">{t.credTitle}</h2>
+            <p className="lede">{t.credLead}</p>
+          </div>
+          {t.credGroups.map((g, gi) => (
+            <div className="cred-group" key={gi}>
+              <h3 className="cred-k">{g.k}</h3>
+              <div className="cred-grid" data-reveal="stagger">
+                {g.items.map((it, idx) => (
+                  <button
+                    type="button"
+                    className="cred"
+                    key={it.img}
+                    style={stagger(idx)}
+                    onClick={() => setOpen(it)}
+                    aria-label={`${t.credView}: ${it.title}`}
+                  >
+                    <span className="cred-img">
+                      <img
+                        src={`credentials/thumb/${it.img}.jpg`}
+                        alt=""
+                        width={560}
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </span>
+                    <span className="cred-title">{it.title}</span>
+                    <span className="cred-meta">{it.meta}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section className="section" id="stack">
         <div className="wrap">
           <div className="section-head" data-reveal>
@@ -464,6 +533,8 @@ export default function App() {
           </div>
         </div>
       </section>
+
+      {open ? <Lightbox item={open} close={() => setOpen(null)} label={t.credClose} /> : null}
 
       <footer className="footer">
         <div className="wrap">{t.footer}</div>

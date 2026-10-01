@@ -1,11 +1,12 @@
 {
-  "name": "Harold G. Salgado",
+  "name": "Harol Guerrero Salgado",
   "email": "haroldguerrerosena@gmail.com",
+  "phone": "+57 321 563 4429",
   "linkedin": "https://www.linkedin.com/in/harold-salgado-498a60354/",
   "github": "https://github.com/DevCat-HGS",
   "files": {
-    "en": "Harold_Salgado_CV_EN.pdf",
-    "es": "Harold_Salgado_CV_ES.pdf"
+    "en": "Harol_Guerrero_CV_EN.pdf",
+    "es": "Harol_Guerrero_CV_ES.pdf"
   },
   "en": {
     "title": "Full Stack Software Developer",
@@ -18,7 +19,11 @@
       "education": "Education",
       "present": "Present",
       "client": "Client",
-      "stack": "Technologies"
+      "stack": "Technologies",
+      "certifications": "Training and Certifications",
+      "awards": "Awards and Recognitions",
+      "hours": "hours",
+      "graduated": "Graduated"
     },
     "summary": "Full stack software developer with experience building web and mobile applications with JavaScript/TypeScript, React, Next.js, Node.js and Flutter. Experience designing serverless architectures on AWS and integrating generative AI into support and automation workflows. Currently maintaining, testing and developing features for a social platform used on Android, iOS and Web.",
     "experience": [
@@ -51,13 +56,38 @@
       }
     ],
     "skills": [
-      ["Languages", "TypeScript, JavaScript, Python, Dart, C#, C++, SQL"],
-      ["Frontend", "React, Next.js, Vue, HTML, CSS, Sass, Tailwind CSS"],
-      ["Backend and Databases", "Node.js, Express, PostgreSQL, MongoDB, MySQL, Firebase, Supabase, OpenSearch"],
-      ["Cloud and DevOps", "AWS (Lambda, API Gateway, Bedrock), Google Cloud, Docker, Git, GitHub Actions, CI/CD, Linux"],
-      ["Mobile", "Flutter, Dart, Android"],
-      ["AI and Automation", "Generative AI, Amazon Bedrock, semantic search, Make"],
-      ["Other", "Unity, Arduino, SAP Fiori, SAPUI5, OData, QA testing"]
+      [
+        "Languages",
+        "TypeScript, JavaScript, Python, Dart, C#, C++, SQL"
+      ],
+      [
+        "Frontend",
+        "React, Next.js, Vue, HTML, CSS, Sass, Tailwind CSS"
+      ],
+      [
+        "Backend and Databases",
+        "Node.js, Express, PostgreSQL, MongoDB, MySQL, Firebase, Supabase, OpenSearch"
+      ],
+      [
+        "Cloud and DevOps",
+        "AWS (Lambda, API Gateway, Bedrock), Google Cloud, Docker, Git, GitHub Actions, CI/CD, Linux"
+      ],
+      [
+        "Mobile",
+        "Flutter, Dart, Android"
+      ],
+      [
+        "AI and Automation",
+        "Generative AI, Amazon Bedrock, semantic search, Make"
+      ],
+      [
+        "Other",
+        "Unity, Arduino, SAP Fiori, SAPUI5, OData, QA testing"
+      ],
+      [
+        "Languages",
+        "Spanish (native); English (SENA English Does Work, Levels 1 and 2)"
+      ]
     ],
     "projects": [
       {
@@ -109,7 +139,78 @@
         "stack": "React, JavaScript, MongoDB"
       }
     ],
-    "education": []
+    "education": [
+      {
+        "degree": "Technologist in Software Analysis and Development",
+        "institution": "SENA (Servicio Nacional de Aprendizaje)",
+        "place": "Caucasia, Antioquia, Colombia",
+        "start": null,
+        "end": "Sep 2026"
+      },
+      {
+        "degree": "Systems Technician",
+        "institution": "SENA (Servicio Nacional de Aprendizaje)",
+        "place": "Caucasia, Antioquia, Colombia",
+        "start": null,
+        "end": "Nov 2023"
+      },
+      {
+        "degree": "Academic High School Diploma (Bachiller Académico)",
+        "institution": "Institución Educativa Santo Domingo",
+        "place": "Caucasia, Antioquia, Colombia",
+        "start": null,
+        "end": "Dec 2023"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Software Testing",
+        "issuer": "SENA",
+        "date": "Oct 2025",
+        "hours": 48
+      },
+      {
+        "name": "Exploratory Data Analysis with Python",
+        "issuer": "SENA",
+        "date": "May 2024",
+        "hours": 48
+      },
+      {
+        "name": "Data Cleaning and Transformation with Python",
+        "issuer": "SENA",
+        "date": "Sep 2024",
+        "hours": 48
+      },
+      {
+        "name": "English Does Work, Level 1",
+        "issuer": "SENA",
+        "date": "Nov 2024",
+        "hours": 48
+      },
+      {
+        "name": "English Does Work, Level 2",
+        "issuer": "SENA",
+        "date": "Jul 2025",
+        "hours": 48
+      }
+    ],
+    "awards": [
+      {
+        "name": "Orgullo SENA 2024, Technical Performance",
+        "issuer": "SENA Antioquia",
+        "date": "2024"
+      },
+      {
+        "name": "Aprendiz Integral, Special Recognition",
+        "issuer": "SENA, Complejo Tecnológico para la Gestión Agroempresarial",
+        "date": "Sep 2023"
+      },
+      {
+        "name": "Recognition for outstanding all-round professional training",
+        "issuer": "SENA, Complejo Tecnológico para la Gestión Agroempresarial",
+        "date": ""
+      }
+    ]
   },
   "es": {
     "title": "Desarrollador de Software Full Stack",
@@ -122,7 +223,11 @@
       "education": "Formación Académica",
       "present": "Actualidad",
       "client": "Cliente",
-      "stack": "Tecnologías"
+      "stack": "Tecnologías",
+      "certifications": "Cursos y Certificaciones",
+      "awards": "Reconocimientos",
+      "hours": "horas",
+      "graduated": "Graduado"
     },
     "summary": "Desarrollador de software full stack con experiencia en aplicaciones web y móviles con JavaScript/TypeScript, React, Next.js, Node.js y Flutter. Experiencia diseñando arquitecturas serverless en AWS e integrando IA generativa en flujos de soporte y automatización. Actualmente realiza mantenimiento, pruebas y desarrollo de funcionalidades en una plataforma social disponible en Android, iOS y Web.",
     "experience": [
@@ -155,13 +260,38 @@
       }
     ],
     "skills": [
-      ["Lenguajes", "TypeScript, JavaScript, Python, Dart, C#, C++, SQL"],
-      ["Frontend", "React, Next.js, Vue, HTML, CSS, Sass, Tailwind CSS"],
-      ["Backend y Bases de Datos", "Node.js, Express, PostgreSQL, MongoDB, MySQL, Firebase, Supabase, OpenSearch"],
-      ["Cloud y DevOps", "AWS (Lambda, API Gateway, Bedrock), Google Cloud, Docker, Git, GitHub Actions, CI/CD, Linux"],
-      ["Mobile", "Flutter, Dart, Android"],
-      ["IA y Automatización", "IA generativa, Amazon Bedrock, búsqueda semántica, Make"],
-      ["Otros", "Unity, Arduino, SAP Fiori, SAPUI5, OData, QA testing"]
+      [
+        "Lenguajes",
+        "TypeScript, JavaScript, Python, Dart, C#, C++, SQL"
+      ],
+      [
+        "Frontend",
+        "React, Next.js, Vue, HTML, CSS, Sass, Tailwind CSS"
+      ],
+      [
+        "Backend y Bases de Datos",
+        "Node.js, Express, PostgreSQL, MongoDB, MySQL, Firebase, Supabase, OpenSearch"
+      ],
+      [
+        "Cloud y DevOps",
+        "AWS (Lambda, API Gateway, Bedrock), Google Cloud, Docker, Git, GitHub Actions, CI/CD, Linux"
+      ],
+      [
+        "Mobile",
+        "Flutter, Dart, Android"
+      ],
+      [
+        "IA y Automatización",
+        "IA generativa, Amazon Bedrock, búsqueda semántica, Make"
+      ],
+      [
+        "Otros",
+        "Unity, Arduino, SAP Fiori, SAPUI5, OData, QA testing"
+      ],
+      [
+        "Idiomas",
+        "Español (nativo); Inglés (SENA English Does Work, niveles 1 y 2)"
+      ]
     ],
     "projects": [
       {
@@ -213,6 +343,77 @@
         "stack": "React, JavaScript, MongoDB"
       }
     ],
-    "education": []
+    "education": [
+      {
+        "degree": "Tecnólogo en Análisis y Desarrollo de Software",
+        "institution": "SENA (Servicio Nacional de Aprendizaje)",
+        "place": "Caucasia, Antioquia, Colombia",
+        "start": null,
+        "end": "sep. 2026"
+      },
+      {
+        "degree": "Técnico en Sistemas",
+        "institution": "SENA (Servicio Nacional de Aprendizaje)",
+        "place": "Caucasia, Antioquia, Colombia",
+        "start": null,
+        "end": "nov. 2023"
+      },
+      {
+        "degree": "Bachiller Académico",
+        "institution": "Institución Educativa Santo Domingo",
+        "place": "Caucasia, Antioquia, Colombia",
+        "start": null,
+        "end": "dic. 2023"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Pruebas de Software - Testing",
+        "issuer": "SENA",
+        "date": "oct. 2025",
+        "hours": 48
+      },
+      {
+        "name": "Análisis Exploratorio de Datos en Python",
+        "issuer": "SENA",
+        "date": "may. 2024",
+        "hours": 48
+      },
+      {
+        "name": "Limpieza y Transformación de Datos con Python",
+        "issuer": "SENA",
+        "date": "sep. 2024",
+        "hours": 48
+      },
+      {
+        "name": "English Does Work - Level 1",
+        "issuer": "SENA",
+        "date": "nov. 2024",
+        "hours": 48
+      },
+      {
+        "name": "English Does Work - Level 2",
+        "issuer": "SENA",
+        "date": "jul. 2025",
+        "hours": 48
+      }
+    ],
+    "awards": [
+      {
+        "name": "Orgullo SENA 2024, Desempeño Técnico",
+        "issuer": "SENA Antioquia",
+        "date": "2024"
+      },
+      {
+        "name": "Aprendiz Integral, Reconocimiento Especial",
+        "issuer": "SENA, Complejo Tecnológico para la Gestión Agroempresarial",
+        "date": "sep. 2023"
+      },
+      {
+        "name": "Reconocimiento por su integralidad en la formación profesional",
+        "issuer": "SENA, Complejo Tecnológico para la Gestión Agroempresarial",
+        "date": ""
+      }
+    ]
   }
 }

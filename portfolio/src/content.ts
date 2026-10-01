@@ -11,11 +11,12 @@ export const copy = {
       { id: "startup", n: "03", label: "Startup" },
       { id: "tenure", n: "04", label: "Tenure" },
       { id: "selected", n: "05", label: "Selected" },
-      { id: "stack", n: "06", label: "Stack" },
-      { id: "close", n: "07", label: "Close" },
+      { id: "credentials", n: "06", label: "Credentials" },
+      { id: "stack", n: "07", label: "Stack" },
+      { id: "close", n: "08", label: "Close" },
     ],
     heroKicker: "Software Engineer  ·  Product Developer",
-    heroName: ["Harold", "G. Salgado"],
+    heroName: ["Harol", "G. Salgado"],
     heroDek:
       "I design and ship systems people actually use — from SAP floors to local commerce, with generative AI in the loop.",
     heroNow: "Now  ·  Full Stack Developer at MIGOZZ",
@@ -164,7 +165,41 @@ export const copy = {
         stack: ["React", "MongoDB"],
       },
     ],
-    stackEyebrow: "06  —  Stack",
+    credEyebrow: "06  —  Credentials",
+    credTitle: "Education and credentials.",
+    credLead:
+      "Degrees, courses and recognitions earned along the way. Identity document numbers are hidden.",
+    credGroups: [
+      {
+        k: "Degrees",
+        items: [
+          { img: "tecnologo-ads", title: "Technologist in Software Analysis and Development", meta: "SENA  ·  Sep 2026" },
+          { img: "tecnico-sistemas", title: "Systems Technician", meta: "SENA  ·  Nov 2023" },
+          { img: "bachiller", title: "Academic High School Diploma", meta: "I.E. Santo Domingo  ·  Dec 2023" },
+        ],
+      },
+      {
+        k: "Courses",
+        items: [
+          { img: "curso-testing", title: "Software Testing", meta: "SENA  ·  48 h  ·  Oct 2025" },
+          { img: "curso-python-eda", title: "Exploratory Data Analysis with Python", meta: "SENA  ·  48 h  ·  May 2024" },
+          { img: "curso-python-limpieza", title: "Data Cleaning and Transformation with Python", meta: "SENA  ·  48 h  ·  Sep 2024" },
+          { img: "curso-english-1", title: "English Does Work, Level 1", meta: "SENA  ·  48 h  ·  Nov 2024" },
+          { img: "curso-english-2", title: "English Does Work, Level 2", meta: "SENA  ·  48 h  ·  Jul 2025" },
+        ],
+      },
+      {
+        k: "Recognitions",
+        items: [
+          { img: "orgullo-sena-2024", title: "Orgullo SENA 2024, Technical Performance", meta: "SENA Antioquia  ·  2024" },
+          { img: "aprendiz-integral", title: "Aprendiz Integral, Special Recognition", meta: "SENA CTPGA  ·  Sep 2023" },
+          { img: "reconocimiento-integralidad", title: "Recognition for all-round professional training", meta: "SENA CTPGA" },
+        ],
+      },
+    ],
+    credView: "View certificate",
+    credClose: "Close",
+    stackEyebrow: "07  —  Stack",
     stackTitle: "Tools I reach for without thinking.",
     stackGroups: [
       { k: "Interface", v: "HTML, CSS, Sass, Tailwind, React, Next.js, Vue, Flutter" },
@@ -174,7 +209,7 @@ export const copy = {
       { k: "SAP", v: "Fiori, SAPUI5, OData, process support, incident analysis" },
       { k: "Now", v: "Generative AI in product, serverless AWS, Flutter, Linux, DevOps" },
     ],
-    closeEyebrow: "07  —  Close",
+    closeEyebrow: "08  —  Close",
     closeTitle: "Write to me.",
     closeBody:
       "Product work, platforms, SAP-adjacent systems, or a strange brief that needs a working interface. Colombia. Reply in Spanish or English.",
@@ -184,9 +219,9 @@ export const copy = {
       { label: "LinkedIn", href: "https://www.linkedin.com/in/harold-salgado-498a60354/" },
       { label: "DevTools", href: "https://github.com/DevCat-HGS/DevTools" },
     ],
-    footer: "Harold G. Salgado  ·  Software Engineer",
+    footer: "Harol G. Salgado  ·  Software Engineer",
     visit: "Open site",
-    cv: { label: "Download CV", href: "cv/Harold_Salgado_CV_EN.pdf" },
+    cv: { label: "Download CV", href: "cv/Harol_Guerrero_CV_EN.pdf" },
     clientLabel: "Client",
     institutionalLabel: "Institutional project",
     trademarkNote:
@@ -202,11 +237,12 @@ export const copy = {
       { id: "startup", n: "03", label: "Startup" },
       { id: "tenure", n: "04", label: "Cargo" },
       { id: "selected", n: "05", label: "Obra" },
-      { id: "stack", n: "06", label: "Stack" },
-      { id: "close", n: "07", label: "Cierre" },
+      { id: "credentials", n: "06", label: "Credenciales" },
+      { id: "stack", n: "07", label: "Stack" },
+      { id: "close", n: "08", label: "Cierre" },
     ],
     heroKicker: "Software Engineer  ·  Product Developer",
-    heroName: ["Harold", "G. Salgado"],
+    heroName: ["Harol", "G. Salgado"],
     heroDek:
       "Diseño y entrego sistemas que la gente usa de verdad — del piso SAP al comercio local, con IA generativa en el circuito.",
     heroNow: "Ahora  ·  Desarrollador Full Stack en MIGOZZ",
@@ -355,7 +391,41 @@ export const copy = {
         stack: ["React", "MongoDB"],
       },
     ],
-    stackEyebrow: "06  —  Stack",
+    credEyebrow: "06  —  Credenciales",
+    credTitle: "Formación y credenciales.",
+    credLead:
+      "Títulos, cursos y reconocimientos obtenidos en el camino. Los números de documento de identidad están ocultos.",
+    credGroups: [
+      {
+        k: "Títulos",
+        items: [
+          { img: "tecnologo-ads", title: "Tecnólogo en Análisis y Desarrollo de Software", meta: "SENA  ·  sep. 2026" },
+          { img: "tecnico-sistemas", title: "Técnico en Sistemas", meta: "SENA  ·  nov. 2023" },
+          { img: "bachiller", title: "Bachiller Académico", meta: "I.E. Santo Domingo  ·  dic. 2023" },
+        ],
+      },
+      {
+        k: "Cursos",
+        items: [
+          { img: "curso-testing", title: "Pruebas de Software - Testing", meta: "SENA  ·  48 h  ·  oct. 2025" },
+          { img: "curso-python-eda", title: "Análisis Exploratorio de Datos en Python", meta: "SENA  ·  48 h  ·  may. 2024" },
+          { img: "curso-python-limpieza", title: "Limpieza y Transformación de Datos con Python", meta: "SENA  ·  48 h  ·  sep. 2024" },
+          { img: "curso-english-1", title: "English Does Work, Nivel 1", meta: "SENA  ·  48 h  ·  nov. 2024" },
+          { img: "curso-english-2", title: "English Does Work, Nivel 2", meta: "SENA  ·  48 h  ·  jul. 2025" },
+        ],
+      },
+      {
+        k: "Reconocimientos",
+        items: [
+          { img: "orgullo-sena-2024", title: "Orgullo SENA 2024, Desempeño Técnico", meta: "SENA Antioquia  ·  2024" },
+          { img: "aprendiz-integral", title: "Aprendiz Integral, Reconocimiento Especial", meta: "SENA CTPGA  ·  sep. 2023" },
+          { img: "reconocimiento-integralidad", title: "Reconocimiento por su integralidad en la formación", meta: "SENA CTPGA" },
+        ],
+      },
+    ],
+    credView: "Ver certificado",
+    credClose: "Cerrar",
+    stackEyebrow: "07  —  Stack",
     stackTitle: "Herramientas que uso sin pensarlo.",
     stackGroups: [
       { k: "Interfaz", v: "HTML, CSS, Sass, Tailwind, React, Next.js, Vue, Flutter" },
@@ -365,7 +435,7 @@ export const copy = {
       { k: "SAP", v: "Fiori, SAPUI5, OData, soporte de procesos, análisis de incidencias" },
       { k: "Ahora", v: "IA generativa en producto, serverless AWS, Flutter, Linux, DevOps" },
     ],
-    closeEyebrow: "07  —  Cierre",
+    closeEyebrow: "08  —  Cierre",
     closeTitle: "Escríbeme.",
     closeBody:
       "Producto, plataformas, sistemas junto a SAP, o un brief raro que necesite una interfaz que funcione. Colombia. Respondo en español o en inglés.",
@@ -375,9 +445,9 @@ export const copy = {
       { label: "LinkedIn", href: "https://www.linkedin.com/in/harold-salgado-498a60354/" },
       { label: "DevTools", href: "https://github.com/DevCat-HGS/DevTools" },
     ],
-    footer: "Harold G. Salgado  ·  Software Engineer",
+    footer: "Harol G. Salgado  ·  Software Engineer",
     visit: "Abrir sitio",
-    cv: { label: "Descargar CV", href: "cv/Harold_Salgado_CV_ES.pdf" },
+    cv: { label: "Descargar CV", href: "cv/Harol_Guerrero_CV_ES.pdf" },
     clientLabel: "Cliente",
     institutionalLabel: "Proyecto institucional",
     trademarkNote:

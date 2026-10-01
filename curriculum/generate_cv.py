@@ -42,7 +42,8 @@ def styles() -> dict[str, ParagraphStyle]:
         "title": ParagraphStyle("title", **{**base, "fontSize": 11.5, "leading": 15, "textColor": MUTED}),
         "contact": ParagraphStyle("contact", **{**base, "fontSize": 9, "leading": 12, "textColor": MUTED}),
         "h": ParagraphStyle(
-            "h", **{**base, "fontName": FONT_BOLD, "fontSize": 10.5, "leading": 13, "spaceBefore": 10, "spaceAfter": 2}
+            "h",
+            **{**base, "fontName": FONT_BOLD, "fontSize": 10.5, "leading": 13, "spaceBefore": 10, "spaceAfter": 2, "keepWithNext": 1},
         ),
         "body": ParagraphStyle("body", **base),
         "role": ParagraphStyle("role", **{**base, "fontName": FONT_BOLD, "fontSize": 10.2, "spaceBefore": 4}),
@@ -62,18 +63,36 @@ def rich(markup: str, style: ParagraphStyle) -> Paragraph:
 
 
 def heading(text: str, st: dict[str, ParagraphStyle]) -> list:
-    return [
-        p(text.upper(), st["h"]),
-        HRFlowable(width="100%", thickness=0.6, color=RULE, spaceBefore=0, spaceAfter=3),
-    ]
+    rule = HRFlowable(width="100%", thickness=0.6, color=RULE, spaceBefore=0, spaceAfter=3)
+    rule.keepWithNext = 1  # el encabezado nunca queda solo al final de una página
+    return [p(text.upper(), st["h"]), rule]
 
 
 def date_range(item: dict, labels: dict) -> str:
+    if not item.get("start"):
+        return item["end"] or labels["present"]
     return f'{item["start"]} - {item["end"] or labels["present"]}'
 
 
 def strip_scheme(url: str) -> str:
     return url.replace("https://", "").replace("http://", "").rstrip("/")
+
+
+def glue_headings(flow: list) -> list:
+    """Une cada encabezado (título + línea) con el primer bloque que le sigue."""
+    out: list = []
+    i = 0
+    while i < len(flow):
+        item = flow[i]
+        if isinstance(item, Paragraph) and item.style.name == "h" and i + 2 < len(flow):
+            first = flow[i + 2]
+            body = list(first._content) if isinstance(first, KeepTogether) else [first]  # sin KeepTogether anidados
+            out.append(KeepTogether([item, flow[i + 1], *body]))
+            i += 3
+        else:
+            out.append(item)
+            i += 1
+    return out
 
 
 def build(data: dict, lang: str, out: Path) -> None:
@@ -85,8 +104,8 @@ def build(data: dict, lang: str, out: Path) -> None:
         pagesize=LETTER,
         leftMargin=0.75 * inch,
         rightMargin=0.75 * inch,
-        topMargin=0.65 * inch,
-        bottomMargin=0.65 * inch,
+        topMargin=0.55 * inch,
+        bottomMargin=0.55 * inch,
         title=f'{data["name"]} - {c["title"]}',
         author=data["name"],
         subject="Curriculum Vitae" if lang == "en" else "Hoja de vida",
@@ -100,6 +119,7 @@ def build(data: dict, lang: str, out: Path) -> None:
 
     contact = [
         escape(c["location"]),
+        f'<a href="tel:{data["phone"].replace(" ", "")}" color="#444444">{escape(data["phone"])}</a>',
         f'<a href="mailto:{data["email"]}" color="#444444">{escape(data["email"])}</a>',
         f'<a href="{data["linkedin"]}" color="#444444">{escape(strip_scheme(data["linkedin"]))}</a>',
         f'<a href="{data["github"]}" color="#444444">{escape(strip_scheme(data["github"]))}</a>',
@@ -120,6 +140,18 @@ def build(data: dict, lang: str, out: Path) -> None:
         block.append(p(f'{lb["stack"]}: {job["stack"]}', st["small"]))
         flow.append(KeepTogether(block))
 
+    if c.get("education"):
+        flow += heading(lb["education"], st)
+        for ed in c["education"]:
+            flow.append(
+                KeepTogether(
+                    [
+                        p(f'{ed["degree"]}, {ed["institution"]}', st["role"]),
+                        p(f'{ed.get("place", "")}  |  {date_range(ed, lb)}', st["meta"]),
+                    ]
+                )
+            )
+
     flow += heading(lb["skills"], st)
     for label, items in c["skills"]:
         flow.append(rich(f"<b>{escape(label)}:</b> {escape(items)}", st["body"]))
@@ -136,14 +168,19 @@ def build(data: dict, lang: str, out: Path) -> None:
         ]
         flow.append(KeepTogether(block))
 
-    if c.get("education"):
-        flow += heading(lb["education"], st)
-        for ed in c["education"]:
-            flow.append(p(f'{ed["degree"]}, {ed["institution"]}', st["role"]))
-            flow.append(p(f'{ed.get("place", "")}  |  {date_range(ed, lb)}', st["meta"]))
+    if c.get("certifications"):
+        flow += heading(lb["certifications"], st)
+        for cert in c["certifications"]:
+            detail = ", ".join(x for x in (cert["issuer"], cert["date"], f'{cert["hours"]} {lb["hours"]}' if cert.get("hours") else "") if x)
+            flow.append(Paragraph(escape(f'{cert["name"]} ({detail})'), st["bullet"], bulletText="-"))
 
-    flow.append(Spacer(1, 2))
-    doc.build(flow)
+    if c.get("awards"):
+        flow += heading(lb["awards"], st)
+        for aw in c["awards"]:
+            detail = ", ".join(x for x in (aw["issuer"], aw["date"]) if x)
+            flow.append(Paragraph(escape(f'{aw["name"]} ({detail})'), st["bullet"], bulletText="-"))
+
+    doc.build(glue_headings(flow))
 
 
 def main() -> None:
