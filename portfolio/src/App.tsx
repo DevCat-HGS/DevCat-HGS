@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type CSSProperties } from "react";
+import { useEffect, useMemo, useRef, useState, type CSSProperties, type ImgHTMLAttributes } from "react";
 import { copy, type Locale } from "./content";
 
 const SECTION_IDS = ["intro", "practice", "startup", "tenure", "selected", "credentials", "stack", "close"] as const;
@@ -11,19 +11,22 @@ function sectionProgress(el: HTMLElement | null) {
   return passed / total;
 }
 
-/** Drives --p and --intro on :root. */
+/** Drives --p (progress bar, aurora) and --intro (hero) only on the elements that read them. */
 function useScrollScene() {
-
   useEffect(() => {
     const root = document.documentElement;
     const intro = document.getElementById("intro");
+    const bar = document.querySelector<HTMLElement>(".progress");
+    const aurora = document.querySelector<HTMLElement>(".aurora");
     let frame = 0;
 
     const update = () => {
       frame = 0;
       const max = root.scrollHeight - window.innerHeight;
-      root.style.setProperty("--p", (max > 0 ? window.scrollY / max : 0).toFixed(4));
-      root.style.setProperty("--intro", sectionProgress(intro).toFixed(4));
+      const p = (max > 0 ? window.scrollY / max : 0).toFixed(4);
+      bar?.style.setProperty("--p", p);
+      aurora?.style.setProperty("--p", p);
+      intro?.style.setProperty("--intro", sectionProgress(intro).toFixed(4));
     };
 
     const schedule = () => {
@@ -39,7 +42,6 @@ function useScrollScene() {
       window.removeEventListener("resize", schedule);
     };
   }, []);
-
 }
 
 function useActiveSection() {
@@ -134,6 +136,26 @@ function Socials({
   );
 }
 
+/** Imagen que aparece con fundido al terminar de cargar (sobre un fondo con brillo mientras tanto). */
+function Img({ className = "", ...props }: ImgHTMLAttributes<HTMLImageElement>) {
+  const ref = useRef<HTMLImageElement>(null);
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    if (ref.current?.complete) setReady(true);
+  }, []);
+
+  return (
+    <img
+      ref={ref}
+      className={`${className} fade${ready ? " is-loaded" : ""}`.trim()}
+      decoding="async"
+      onLoad={() => setReady(true)}
+      {...props}
+    />
+  );
+}
+
 type CredItem = { img: string; title: string; meta: string };
 
 function Lightbox({ item, close, label }: { item: CredItem; close: () => void; label: string }) {
@@ -150,7 +172,7 @@ function Lightbox({ item, close, label }: { item: CredItem; close: () => void; l
   return (
     <div className="lightbox" role="dialog" aria-modal="true" aria-label={item.title} onClick={close}>
       <figure onClick={(e) => e.stopPropagation()}>
-        <img src={`credentials/${item.img}.jpg`} alt={item.title} />
+        <Img src={`credentials/${item.img}.webp`} alt={item.title} />
         <figcaption>
           <strong>{item.title}</strong>
           <span>{item.meta}</span>
@@ -183,6 +205,19 @@ export default function App() {
   useScrollScene();
   useReveal(locale);
   useSpotlight();
+
+  useEffect(() => {
+    const splash = document.getElementById("splash");
+    if (!splash) return;
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const minShow = reduced ? 250 : 1500;
+    const wait = new Promise((r) => window.setTimeout(r, Math.max(0, minShow - performance.now())));
+    Promise.all([document.fonts.ready, wait]).then(() => {
+      splash.classList.add("hide");
+      document.documentElement.classList.remove("is-loading");
+      window.setTimeout(() => splash.remove(), 800);
+    });
+  }, []);
 
   useEffect(() => {
     document.documentElement.lang = locale;
@@ -306,7 +341,7 @@ export default function App() {
           <div className="section-head" data-reveal>
             <p className="eyebrow">{t.startupEyebrow}</p>
             <div className="startup-top">
-              <img className="app-icon" src="migozz-icon.png" alt="" width={72} height={72} />
+              <img className="app-icon" src="migozz-icon.webp" alt="" width={72} height={72} />
               <h2 className="display">{t.startupCompany}</h2>
               <span className="status">
                 <i aria-hidden="true" />
@@ -394,13 +429,14 @@ export default function App() {
                         <i />
                         <span>{"href" in p && p.href ? new URL(p.href).host : p.title}</span>
                       </div>
-                      <img
+                      <Img
                         src={p.shot}
+                        srcSet={`${p.shot.replace(".webp", "-480.webp")} 480w, ${p.shot} 960w`}
+                        sizes="(max-width: 760px) 92vw, 560px"
                         alt={"alt" in p ? p.alt : ""}
                         width={960}
                         height={600}
                         loading="lazy"
-                        decoding="async"
                       />
                     </figure>
                   ) : (
@@ -518,12 +554,14 @@ export default function App() {
                       aria-label={`${t.credView}: ${it.title}`}
                     >
                       <span className="cred-img">
-                        <img
-                          src={`credentials/thumb/${it.img}.jpg`}
+                        <Img
+                          src={`credentials/thumb/${it.img}.webp`}
+                          srcSet={`credentials/thumb/${it.img}-360.webp 360w, credentials/thumb/${it.img}.webp 560w`}
+                          sizes="(max-width: 760px) 92vw, 380px"
                           alt=""
                           width={560}
+                          height={420}
                           loading="lazy"
-                          decoding="async"
                         />
                       </span>
                       <span className="cred-title">{it.title}</span>

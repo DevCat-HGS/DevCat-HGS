@@ -87,7 +87,7 @@ export const copy = {
     projects: [
       {
         id: "sabaneta",
-        shot: "shots/sabaneta.jpg",
+        shot: "shots/sabaneta.webp",
         alt: "Screenshot of the Hecho en Sabaneta home page",
         tag: "Commerce  ·  Live",
         title: "Hecho en Sabaneta",
@@ -97,7 +97,7 @@ export const copy = {
       },
       {
         id: "arcoiris",
-        shot: "shots/arcoiris.jpg",
+        shot: "shots/arcoiris.webp",
         alt: "Screenshot of the Arcoiris Zapatería home page",
         tag: "Services  ·  Live",
         title: "Arcoiris Zapatería",
@@ -107,7 +107,7 @@ export const copy = {
       },
       {
         id: "aria",
-        shot: "shots/aria.jpg",
+        shot: "shots/aria.webp",
         alt: "Screenshot of the ARIA assistant: SAP support chat with suggested queries",
         client: "Arix Group",
         clientHref: "https://arixgroup.com.co/",
@@ -320,7 +320,7 @@ export const copy = {
     projects: [
       {
         id: "sabaneta",
-        shot: "shots/sabaneta.jpg",
+        shot: "shots/sabaneta.webp",
         alt: "Captura de la página de inicio de Hecho en Sabaneta",
         tag: "Comercio  ·  En vivo",
         title: "Hecho en Sabaneta",
@@ -330,7 +330,7 @@ export const copy = {
       },
       {
         id: "arcoiris",
-        shot: "shots/arcoiris.jpg",
+        shot: "shots/arcoiris.webp",
         alt: "Captura de la página de inicio de Arcoiris Zapatería",
         tag: "Servicios  ·  En vivo",
         title: "Arcoiris Zapatería",
@@ -340,7 +340,7 @@ export const copy = {
       },
       {
         id: "aria",
-        shot: "shots/aria.jpg",
+        shot: "shots/aria.webp",
         alt: "Captura del asistente ARIA: chat de soporte SAP con consultas sugeridas",
         client: "Arix Group",
         clientHref: "https://arixgroup.com.co/",

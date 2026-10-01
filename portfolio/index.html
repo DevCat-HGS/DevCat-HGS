@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="is-loading">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,14 +22,166 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="__SITE_URL__og.png" />
     <meta name="theme-color" content="#0b0b0a" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Instrument+Serif:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
+
+    <!-- Pantalla de bienvenida: va inline para pintarse antes de que cargue el JS. -->
+    <style>
+      html.is-loading,
+      html.is-loading body {
+        overflow: hidden;
+      }
+
+      #splash {
+        position: fixed;
+        inset: 0;
+        z-index: 200;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(700px 420px at 85% -10%, rgba(182, 156, 255, 0.22), transparent 60%),
+          radial-gradient(600px 400px at 0% 110%, rgba(226, 192, 141, 0.12), transparent 60%),
+          #0b0b0a;
+        color: #f2eee6;
+        transition: opacity 0.6s ease, visibility 0s linear 0.6s;
+      }
+
+      #splash.hide {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .splash-inner {
+        display: grid;
+        justify-items: center;
+        gap: 1.4rem;
+        padding: 1.5rem;
+        text-align: center;
+      }
+
+      .splash-hello {
+        margin: 0;
+        font-family: "Instrument Serif", "Times New Roman", serif;
+        font-style: italic;
+        font-size: clamp(2.6rem, 9vw, 4.6rem);
+        line-height: 1;
+        letter-spacing: -0.02em;
+        animation: splash-in 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+      }
+
+      .splash-sub {
+        margin: 0;
+        font-family: "IBM Plex Mono", ui-monospace, monospace;
+        font-size: 13px;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: #b0aa9d;
+        animation: splash-in 0.9s 0.15s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+      }
+
+      @keyframes splash-in {
+        from {
+          opacity: 0;
+          transform: translateY(14px);
+        }
+      }
+
+      /* ---- LOADER (bloque independiente: se puede reemplazar por cualquier otro) ---- */
+      .loader {
+        position: relative;
+        width: 72px;
+        height: 72px;
+      }
+
+      .loader i {
+        position: absolute;
+        border-radius: 50%;
+        border: 2px solid transparent;
+        animation: loader-spin 1.3s linear infinite;
+      }
+
+      .loader i:nth-child(1) {
+        inset: 0;
+        border-top-color: #b69cff;
+        border-right-color: rgba(182, 156, 255, 0.25);
+      }
+
+      .loader i:nth-child(2) {
+        inset: 11px;
+        border-top-color: #e2c08d;
+        border-left-color: rgba(226, 192, 141, 0.25);
+        animation-duration: 1.7s;
+        animation-direction: reverse;
+      }
+
+      .loader i:nth-child(3) {
+        inset: 22px;
+        border-top-color: #f2eee6;
+        animation-duration: 0.95s;
+      }
+
+      .loader b {
+        position: absolute;
+        inset: 32px;
+        border-radius: 50%;
+        background: #b69cff;
+        box-shadow: 0 0 18px rgba(182, 156, 255, 0.7);
+        animation: loader-pulse 1.3s ease-in-out infinite;
+      }
+
+      @keyframes loader-spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      @keyframes loader-pulse {
+        50% {
+          transform: scale(0.55);
+          opacity: 0.6;
+        }
+      }
+      /* ---- fin del loader ---- */
+
+      @media (prefers-reduced-motion: reduce) {
+        .loader i {
+          animation: none;
+        }
+        .splash-hello,
+        .splash-sub {
+          animation: none;
+        }
+      }
+    </style>
   </head>
   <body>
+    <div id="splash" role="status" aria-live="polite">
+      <div class="splash-inner">
+        <div class="loader" aria-hidden="true"><i></i><i></i><i></i><b></b></div>
+        <p class="splash-hello" id="splash-hello">Welcome</p>
+        <p class="splash-sub" id="splash-sub">Loading…</p>
+      </div>
+    </div>
+    <script>
+      (function () {
+        var es = false;
+        try {
+          var saved = localStorage.getItem("locale");
+          es = saved ? saved === "es" : /^es/i.test((navigator.languages && navigator.languages[0]) || navigator.language || "");
+        } catch (e) {
+          es = /^es/i.test(navigator.language || "");
+        }
+        if (es) {
+          document.getElementById("splash-hello").textContent = "Bienvenido";
+          document.getElementById("splash-sub").textContent = "Cargando…";
+        }
+        // Red de seguridad: si el JS falla, la bienvenida nunca bloquea la página.
+        setTimeout(function () {
+          var s = document.getElementById("splash");
+          if (s) s.className = "hide";
+          document.documentElement.classList.remove("is-loading");
+        }, 8000);
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

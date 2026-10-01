@@ -50,13 +50,17 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body {
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
   background-image:
     radial-gradient(1200px 500px at 80% -10%, rgba(182, 156, 255, 0.05), transparent 55%),
     linear-gradient(rgba(242, 238, 230, 0.03) 1px, transparent 1px),
     linear-gradient(90deg, rgba(242, 238, 230, 0.03) 1px, transparent 1px);
   background-size: auto, 72px 72px, 72px 72px;
-  background-attachment: fixed;
 }
 
 ::selection {
@@ -163,8 +167,7 @@ img {
   position: fixed;
   inset: 0;
   z-index: 50;
-  opacity: 0.09;
-  mix-blend-mode: overlay;
+  opacity: 0.06;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.9'/%3E%3C/svg%3E");
 }
 
@@ -281,7 +284,7 @@ img {
   height: 100vh;
   display: grid;
   place-items: end stretch;
-  padding: calc(var(--nav) + 2rem) 0 2.5rem;
+  padding: calc(var(--nav) + 1.5rem) 0 1.75rem;
   overflow: hidden;
 }
 
@@ -289,7 +292,7 @@ img {
   width: min(var(--max), calc(100% - 2 * var(--pad)));
   margin-inline: auto;
   display: grid;
-  gap: clamp(1.5rem, 4vh, 3rem);
+  gap: clamp(0.9rem, 2.6vh, 2.2rem);
 }
 
 .kicker {
@@ -301,7 +304,7 @@ img {
 }
 
 .hero h1 {
-  font-size: clamp(4.2rem, 14vw, 11rem);
+  font-size: clamp(3.6rem, min(14vw, 19vh), 11rem);
   transform: translate3d(0, calc(var(--intro, 0) * -36px), 0) scale(calc(1 - var(--intro, 0) * 0.08));
   transform-origin: left bottom;
   will-change: transform;
@@ -343,6 +346,7 @@ img {
 }
 
 .hero .lede {
+  margin: 0;
   opacity: calc(0.35 + var(--intro, 0) * 0.65);
 }
 
@@ -1362,13 +1366,32 @@ img {
   }
 
   .hero h1 {
-    font-size: clamp(6rem, 12.5vw, 11.5rem);
+    font-size: clamp(4.5rem, min(12.5vw, 19vh), 11.5rem);
   }
 }
 
 @media (max-width: 1000px) {
   .nav-index {
     display: none;
+  }
+}
+
+/* Pantallas anchas pero poco altas (laptops): el hero completo cabe sin recortar los botones. */
+@media (min-width: 901px) and (max-height: 780px) {
+  .hero h1 {
+    font-size: clamp(3.2rem, min(12.5vw, 15vh), 11.5rem);
+  }
+
+  .hero .lede {
+    font-size: 1rem;
+  }
+
+  .hero-inner {
+    gap: 0.7rem;
+  }
+
+  .hero-foot {
+    padding-top: 0.75rem;
   }
 }
 
@@ -1439,5 +1462,39 @@ img {
   [data-reveal] > * {
     opacity: 1 !important;
     animation: none !important;
+  }
+}
+
+/* —— Carga de imágenes —— */
+img.fade {
+  opacity: 0;
+  transition: opacity 0.45s ease, transform 0.6s var(--ease);
+}
+
+img.fade.is-loaded {
+  opacity: 1;
+}
+
+.media:not(.art),
+.cred-img {
+  background: linear-gradient(100deg, var(--bg-elev) 30%, rgba(242, 238, 230, 0.07) 50%, var(--bg-elev) 70%) 0 0 / 200% 100%;
+  animation: shimmer 1.4s linear infinite;
+}
+
+.media:has(img.is-loaded),
+.cred-img:has(img.is-loaded) {
+  animation: none;
+}
+
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .media,
+  .cred-img {
+    animation: none;
   }
 }
