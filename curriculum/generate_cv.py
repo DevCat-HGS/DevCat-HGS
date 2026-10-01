@@ -104,8 +104,8 @@ def build(data: dict, lang: str, out: Path) -> None:
         pagesize=LETTER,
         leftMargin=0.75 * inch,
         rightMargin=0.75 * inch,
-        topMargin=0.55 * inch,
-        bottomMargin=0.55 * inch,
+        topMargin=0.5 * inch,
+        bottomMargin=0.5 * inch,
         title=f'{data["name"]} - {c["title"]}',
         author=data["name"],
         subject="Curriculum Vitae" if lang == "en" else "Hoja de vida",
@@ -125,6 +125,8 @@ def build(data: dict, lang: str, out: Path) -> None:
         f'<a href="{data["github"]}" color="#444444">{escape(strip_scheme(data["github"]))}</a>',
     ]
     flow.append(rich("  |  ".join(contact), st["contact"]))
+    if c.get("availability"):
+        flow.append(p(c["availability"], st["contact"]))
 
     flow += heading(lb["summary"], st)
     flow.append(p(c["summary"], st["body"]))

@@ -163,10 +163,20 @@ function Lightbox({ item, close, label }: { item: CredItem; close: () => void; l
   );
 }
 
+function initialLocale(): Locale {
+  try {
+    const saved = localStorage.getItem("locale");
+    if (saved === "en" || saved === "es") return saved;
+  } catch {
+    /* localStorage no disponible: se usa el idioma del navegador */
+  }
+  return (navigator.languages?.[0] ?? navigator.language ?? "en").toLowerCase().startsWith("es") ? "es" : "en";
+}
+
 const stagger = (i: number) => ({ ["--i" as string]: i }) as CSSProperties;
 
 export default function App() {
-  const [locale, setLocale] = useState<Locale>("en");
+  const [locale, setLocale] = useState<Locale>(initialLocale);
   const t = useMemo(() => copy[locale], [locale]);
   const [open, setOpen] = useState<CredItem | null>(null);
   const active = useActiveSection();
@@ -209,7 +219,15 @@ export default function App() {
         <button
           className="lang"
           type="button"
-          onClick={() => setLocale(locale === "en" ? "es" : "en")}
+          onClick={() => {
+            const next = locale === "en" ? "es" : "en";
+            setLocale(next);
+            try {
+              localStorage.setItem("locale", next);
+            } catch {
+              /* sin persistencia */
+            }
+          }}
           aria-label={locale === "en" ? "Cambiar a español" : "Switch to English"}
         >
           {t.langLabel}
@@ -242,6 +260,10 @@ export default function App() {
                 <i aria-hidden="true" />
                 {t.heroNow}
               </a>
+              <span className="open">
+                <i aria-hidden="true" />
+                {t.heroOpen}
+              </span>
               <Socials links={t.links} cv={t.cv} />
             </div>
             <div className="hero-foot">
@@ -370,7 +392,7 @@ export default function App() {
                         <i />
                         <i />
                         <i />
-                        <span>{"href" in p && p.href ? new URL(p.href).host : ""}</span>
+                        <span>{"href" in p && p.href ? new URL(p.href).host : p.title}</span>
                       </div>
                       <img
                         src={p.shot}
@@ -467,30 +489,49 @@ export default function App() {
           {t.credGroups.map((g, gi) => (
             <div className="cred-group" key={gi}>
               <h3 className="cred-k">{g.k}</h3>
-              <div className="cred-grid" data-reveal="stagger">
-                {g.items.map((it, idx) => (
-                  <button
-                    type="button"
-                    className="cred"
-                    key={it.img}
-                    style={stagger(idx)}
-                    onClick={() => setOpen(it)}
-                    aria-label={`${t.credView}: ${it.title}`}
-                  >
-                    <span className="cred-img">
-                      <img
-                        src={`credentials/thumb/${it.img}.jpg`}
-                        alt=""
-                        width={560}
-                        loading="lazy"
-                        decoding="async"
-                      />
-                    </span>
-                    <span className="cred-title">{it.title}</span>
-                    <span className="cred-meta">{it.meta}</span>
-                  </button>
-                ))}
-              </div>
+              {"compact" in g && g.compact ? (
+                <ul className="cred-list" data-reveal>
+                  {g.items.map((it) => (
+                    <li key={it.img}>
+                      <span className="cred-list-title">{it.title}</span>
+                      <span className="cred-meta">{it.meta}</span>
+                      <button
+                        type="button"
+                        className="cred-view"
+                        onClick={() => setOpen(it)}
+                        aria-label={`${t.credView}: ${it.title}`}
+                      >
+                        {t.credViewShort}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <div className="cred-grid" data-reveal="stagger">
+                  {g.items.map((it, idx) => (
+                    <button
+                      type="button"
+                      className="cred"
+                      key={it.img}
+                      style={stagger(idx)}
+                      onClick={() => setOpen(it)}
+                      aria-label={`${t.credView}: ${it.title}`}
+                    >
+                      <span className="cred-img">
+                        <img
+                          src={`credentials/thumb/${it.img}.jpg`}
+                          alt=""
+                          width={560}
+                          loading="lazy"
+                          decoding="async"
+                        />
+                      </span>
+                      <span className="cred-title">{it.title}</span>
+                      <span className="cred-meta">{it.meta}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
           ))}
         </div>

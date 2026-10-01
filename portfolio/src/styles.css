@@ -2,7 +2,7 @@
   --bg: #0b0b0a;
   --bg-elev: #121210;
   --ink: #f2eee6;
-  --ink-dim: #9c968a;
+  --ink-dim: #b0aa9d;
   --line: rgba(242, 238, 230, 0.12);
   --line-strong: rgba(242, 238, 230, 0.22);
   --accent: #b69cff;
@@ -91,7 +91,7 @@ img {
   background: var(--accent);
   color: #111;
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .skip:focus {
@@ -198,7 +198,7 @@ img {
 
 .wordmark {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.28em;
 }
 
@@ -209,8 +209,8 @@ img {
 
 .nav-index a {
   font-family: var(--mono);
-  font-size: 12px;
-  letter-spacing: 0.08em;
+  font-size: 13px;
+  letter-spacing: 0.05em;
   color: var(--ink-dim);
   text-transform: uppercase;
 }
@@ -226,7 +226,7 @@ img {
 
 .lang {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.16em;
   border: 1px solid var(--line-strong);
   padding: 0.35rem 0.7rem;
@@ -249,7 +249,7 @@ img {
 
 .eyebrow {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--ink-dim);
@@ -294,7 +294,7 @@ img {
 
 .kicker {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--brass);
@@ -364,7 +364,7 @@ img {
 
 .chip {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   border: 1px solid var(--line-strong);
@@ -379,7 +379,7 @@ img {
 
 .scroll-cue {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-dim);
@@ -421,7 +421,7 @@ img {
   align-items: center;
   gap: 0.55rem;
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 0.6rem 1.05rem;
@@ -550,7 +550,7 @@ img {
 
 .card .k {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--accent);
@@ -618,7 +618,7 @@ img {
 
 .stores .web-link {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   border: 1px solid var(--line-strong);
@@ -637,7 +637,7 @@ img {
   gap: 0.6rem;
   width: fit-content;
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
@@ -651,6 +651,29 @@ img {
   height: 7px;
   border-radius: 50%;
   background: var(--accent);
+  animation: blink 1.8s ease infinite;
+}
+
+.open {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: fit-content;
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid rgba(123, 220, 138, 0.45);
+  border-radius: 999px;
+  padding: 0.4rem 0.9rem;
+  color: #a6ecb0;
+}
+
+.open i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #7bdc8a;
   animation: blink 1.8s ease infinite;
 }
 
@@ -707,7 +730,7 @@ img {
 .chrome span {
   margin-left: 8px;
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 11.5px;
   letter-spacing: 0.04em;
   color: var(--ink-dim);
 }
@@ -765,7 +788,7 @@ img {
 
 .client span {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 12.5px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-dim);
@@ -804,7 +827,7 @@ img {
   align-items: center;
   gap: 0.5rem;
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent);
@@ -855,7 +878,7 @@ img {
 
 .role {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ink-dim);
@@ -890,7 +913,7 @@ img {
 
 .beat .n {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   color: var(--accent);
 }
 
@@ -931,13 +954,13 @@ img {
 
 .project .idx {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   color: var(--accent);
 }
 
 .project .tag {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-dim);
@@ -979,7 +1002,7 @@ img {
 
 .tags span {
   font-family: var(--mono);
-  font-size: 11.5px;
+  font-size: 12.5px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-dim);
@@ -990,7 +1013,7 @@ img {
 
 .visit {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent);
@@ -1005,7 +1028,7 @@ img {
 .cred-k {
   margin: 0 0 0.9rem;
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -1071,10 +1094,55 @@ img {
 .cred-meta {
   padding-inline: 0.35rem;
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 12.5px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-dim);
+}
+
+.cred-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+
+.cred-list li {
+  display: grid;
+  gap: 0.35rem 1.25rem;
+  align-items: center;
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.cred-list-title {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  line-height: 1.15;
+}
+
+.cred-view {
+  justify-self: start;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+}
+
+.cred-view:hover,
+.cred-view:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+  outline: none;
+}
+
+@media (min-width: 760px) {
+  .cred-list li {
+    grid-template-columns: 1fr auto auto;
+  }
 }
 
 .lightbox {
@@ -1117,7 +1185,7 @@ img {
 
 .lightbox figcaption span {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 12.5px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-dim);
@@ -1128,7 +1196,7 @@ img {
   top: 1rem;
   right: 1rem;
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   padding: 0.5rem 1rem;
@@ -1162,7 +1230,7 @@ img {
 
 .stack-row dt {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--accent);
@@ -1204,7 +1272,7 @@ img {
 
 .outlinks a {
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--ink-dim);
@@ -1218,7 +1286,7 @@ img {
   padding: 2rem 0 2.5rem;
   border-top: 1px solid var(--line);
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ink-dim);
@@ -1275,7 +1343,7 @@ img {
 
   .rail a {
     font-family: var(--mono);
-    font-size: 11.5px;
+    font-size: 12.5px;
     letter-spacing: 0.16em;
     color: var(--ink-dim);
     writing-mode: horizontal-tb;
@@ -1298,7 +1366,7 @@ img {
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
   .nav-index {
     display: none;
   }
@@ -1356,6 +1424,8 @@ img {
   .lightbox,
   .scroll-cue::after,
   .status i,
+  .open i,
+  .now i,
   .card,
   .project,
   .beat,

@@ -20,13 +20,14 @@ export const copy = {
     heroDek:
       "I design and ship systems people actually use — from SAP floors to local commerce, with generative AI in the loop.",
     heroNow: "Now  ·  Full Stack Developer at MIGOZZ",
+    heroOpen: "Open to work  ·  Remote / Hybrid / On-site in Medellín",
     heroMeta: ["Colombia", "TypeScript", "SAP / Cloud / AI"],
     scroll: "Scroll the issue",
     issue: "Issue 01  —  Selected Work",
     practiceEyebrow: "02  —  Practice",
     practiceTitle: "A product engineer who still writes the boring parts.",
     practiceBody:
-      "I work mainly in the JavaScript and TypeScript ecosystem — React, Next.js, Node — and I have designed serverless architectures on AWS. The interesting part is not the stack. It is putting generative AI, cloud, and a real interface on the same table, then making it hold in production.",
+      "My core is JavaScript, TypeScript and Python — React, Next.js and Node on the web, with serverless on AWS behind it. I use tools like Claude, Cursor and Trae to get productive quickly in whatever stack a team already uses, so I do not slow anyone down. The interesting part is not the stack. It is putting generative AI, cloud, and a real interface on the same table, then making it hold in production.",
     practiceAside:
       "Interfaces, APIs, Unity, Arduino. Same habit: observe the constraint, then ship the smallest system that solves it.",
     bento: [
@@ -35,7 +36,7 @@ export const copy = {
       { k: "Cloud", v: "Serverless on AWS, containers, CI/CD, Google Cloud and Firebase." },
       { k: "Mobile", v: "Cross-platform with Flutter, native Android when the product needs it." },
       { k: "Game & IoT", v: "Unity and C#, embedded prototypes with Arduino and sensors." },
-      { k: "Based", v: "Colombia. Available for product work, platforms, and SAP-adjacent systems." },
+      { k: "Based", v: "Colombia. Open to remote work, or hybrid and on-site in Medellín." },
     ],
     startupEyebrow: "03  —  Startup",
     startupCompany: "MIGOZZ",
@@ -60,13 +61,13 @@ export const copy = {
     tenureEyebrow: "04  —  Tenure",
     tenureStatus: "Previous",
     tenureCompany: "Mitsubishi Electric de Colombia",
-    tenureRole: "Software Developer — SAP / SAP Fiori",
+    tenureRole: "IT Apprentice — SAP / SAP Fiori development",
     tenurePlace: "Bello  ·  Jan 2026 – Jul 2026",
     tenureBeats: [
       {
         n: "01",
-        title: "Migrate without stopping the plant",
-        body: "Led, with the team, a full-stack migration of SAP services for five business areas. Continuity first. Then adaptation to how each area actually works.",
+        title: "Five areas, one team",
+        body: "Worked side by side with the SAP team on the full-stack migration of SAP services for five business areas. We split the coverage, advised each other on blockers, and adapted to the structure the team had set up.",
       },
       {
         n: "02",
@@ -106,6 +107,8 @@ export const copy = {
       },
       {
         id: "aria",
+        shot: "shots/aria.jpg",
+        alt: "Screenshot of the ARIA assistant: SAP support chat with suggested queries",
         client: "Arix Group",
         clientHref: "https://arixgroup.com.co/",
         hue: 265,
@@ -180,6 +183,7 @@ export const copy = {
       },
       {
         k: "Courses",
+        compact: true,
         items: [
           { img: "curso-testing", title: "Software Testing", meta: "SENA  ·  48 h  ·  Oct 2025" },
           { img: "curso-python-eda", title: "Exploratory Data Analysis with Python", meta: "SENA  ·  48 h  ·  May 2024" },
@@ -198,11 +202,14 @@ export const copy = {
       },
     ],
     credView: "View certificate",
+    credViewShort: "View",
     credClose: "Close",
     stackEyebrow: "07  —  Stack",
     stackTitle: "Tools I reach for without thinking.",
     stackGroups: [
-      { k: "Interface", v: "HTML, CSS, Sass, Tailwind, React, Next.js, Vue, Flutter" },
+      { k: "Core", v: "JavaScript, TypeScript, Python" },
+      { k: "Workflow", v: "Claude, Cursor, Trae — AI-assisted development to ramp up fast on any team's stack" },
+      { k: "Interface", v: "HTML, CSS, Sass, Tailwind, React, Next.js, Flutter" },
       { k: "Runtime", v: "TypeScript, Node, Python, Dart, C#, C++" },
       { k: "Data", v: "PostgreSQL, MongoDB, MySQL, Supabase, Firebase, OpenSearch" },
       { k: "Cloud", v: "AWS, Lambda, API Gateway, Bedrock, Docker, GitHub Actions" },
@@ -212,7 +219,7 @@ export const copy = {
     closeEyebrow: "08  —  Close",
     closeTitle: "Write to me.",
     closeBody:
-      "Product work, platforms, SAP-adjacent systems, or a strange brief that needs a working interface. Colombia. Reply in Spanish or English.",
+      "Looking for remote work, or hybrid and on-site in Medellín. Product work, platforms, SAP-adjacent systems, or a strange brief that needs a working interface. I reply in Spanish or English.",
     email: "haroldguerrerosena@gmail.com",
     links: [
       { label: "GitHub", href: "https://github.com/DevCat-HGS" },
@@ -246,13 +253,14 @@ export const copy = {
     heroDek:
       "Diseño y entrego sistemas que la gente usa de verdad — del piso SAP al comercio local, con IA generativa en el circuito.",
     heroNow: "Ahora  ·  Desarrollador Full Stack en MIGOZZ",
+    heroOpen: "Disponible  ·  Remoto / Híbrido / Presencial en Medellín",
     heroMeta: ["Colombia", "TypeScript", "SAP / Cloud / IA"],
     scroll: "Desplaza el número",
     issue: "Número 01  —  Trabajo seleccionado",
     practiceEyebrow: "02  —  Oficio",
     practiceTitle: "Un product engineer que todavía escribe las partes aburridas.",
     practiceBody:
-      "Trabajo sobre todo en el ecosistema JavaScript y TypeScript — React, Next.js, Node — y he diseñado arquitecturas serverless en AWS. Lo interesante no es el stack. Es poner IA generativa, cloud y una interfaz real en la misma mesa, y que aguante en producción.",
+      "Mi núcleo es JavaScript, TypeScript y Python — React, Next.js y Node en la web, con serverless en AWS detrás. Uso herramientas como Claude, Cursor y Trae para ser productivo rápido en el stack que ya use un equipo, y no retrasar a nadie. Lo interesante no es el stack. Es poner IA generativa, cloud y una interfaz real en la misma mesa, y que aguante en producción.",
     practiceAside:
       "Interfaces, APIs, Unity, Arduino. El mismo hábito: observar la restricción y entregar el sistema más pequeño que la resuelve.",
     bento: [
@@ -261,7 +269,7 @@ export const copy = {
       { k: "Cloud", v: "Serverless en AWS, contenedores, CI/CD, Google Cloud y Firebase." },
       { k: "Mobile", v: "Multiplataforma con Flutter, Android nativo cuando el producto lo pide." },
       { k: "Game e IoT", v: "Unity y C#, prototipos embebidos con Arduino y sensores." },
-      { k: "Base", v: "Colombia. Disponible para producto, plataformas y sistemas junto a SAP." },
+      { k: "Base", v: "Colombia. Disponible para trabajo remoto, o híbrido y presencial en Medellín." },
     ],
     startupEyebrow: "03  —  Startup",
     startupCompany: "MIGOZZ",
@@ -286,13 +294,13 @@ export const copy = {
     tenureEyebrow: "04  —  Cargo",
     tenureStatus: "Anterior",
     tenureCompany: "Mitsubishi Electric de Colombia",
-    tenureRole: "Desarrollador de Software — SAP / SAP Fiori",
+    tenureRole: "Aprendiz IT — Desarrollo SAP / SAP Fiori",
     tenurePlace: "Bello  ·  ene. 2026 – jul. 2026",
     tenureBeats: [
       {
         n: "01",
-        title: "Migrar sin parar la planta",
-        body: "Lideré junto al equipo la migración full stack de servicios SAP para cinco áreas. Primero continuidad operativa. Después adaptación a cómo trabaja cada área.",
+        title: "Cinco áreas, un equipo",
+        body: "Trabajé codo a codo con el equipo SAP en la migración full stack de servicios para cinco áreas. Repartimos la cobertura, nos asesorábamos ante los problemas para agilizar el trabajo y nos adaptamos a la estructura que el equipo ya tenía.",
       },
       {
         n: "02",
@@ -332,6 +340,8 @@ export const copy = {
       },
       {
         id: "aria",
+        shot: "shots/aria.jpg",
+        alt: "Captura del asistente ARIA: chat de soporte SAP con consultas sugeridas",
         client: "Arix Group",
         clientHref: "https://arixgroup.com.co/",
         hue: 265,
@@ -406,6 +416,7 @@ export const copy = {
       },
       {
         k: "Cursos",
+        compact: true,
         items: [
           { img: "curso-testing", title: "Pruebas de Software - Testing", meta: "SENA  ·  48 h  ·  oct. 2025" },
           { img: "curso-python-eda", title: "Análisis Exploratorio de Datos en Python", meta: "SENA  ·  48 h  ·  may. 2024" },
@@ -424,11 +435,14 @@ export const copy = {
       },
     ],
     credView: "Ver certificado",
+    credViewShort: "Ver",
     credClose: "Cerrar",
     stackEyebrow: "07  —  Stack",
     stackTitle: "Herramientas que uso sin pensarlo.",
     stackGroups: [
-      { k: "Interfaz", v: "HTML, CSS, Sass, Tailwind, React, Next.js, Vue, Flutter" },
+      { k: "Núcleo", v: "JavaScript, TypeScript, Python" },
+      { k: "Flujo", v: "Claude, Cursor, Trae — desarrollo asistido por IA para ponerme al día rápido en el stack de cada equipo" },
+      { k: "Interfaz", v: "HTML, CSS, Sass, Tailwind, React, Next.js, Flutter" },
       { k: "Runtime", v: "TypeScript, Node, Python, Dart, C#, C++" },
       { k: "Datos", v: "PostgreSQL, MongoDB, MySQL, Supabase, Firebase, OpenSearch" },
       { k: "Cloud", v: "AWS, Lambda, API Gateway, Bedrock, Docker, GitHub Actions" },
@@ -438,7 +452,7 @@ export const copy = {
     closeEyebrow: "08  —  Cierre",
     closeTitle: "Escríbeme.",
     closeBody:
-      "Producto, plataformas, sistemas junto a SAP, o un brief raro que necesite una interfaz que funcione. Colombia. Respondo en español o en inglés.",
+      "Busco empleo remoto, o híbrido y presencial en Medellín. Producto, plataformas, sistemas junto a SAP, o un brief raro que necesite una interfaz que funcione. Respondo en español o en inglés.",
     email: "haroldguerrerosena@gmail.com",
     links: [
       { label: "GitHub", href: "https://github.com/DevCat-HGS" },

@@ -25,7 +25,7 @@
       "hours": "hours",
       "graduated": "Graduated"
     },
-    "summary": "Full stack software developer with experience building web and mobile applications with JavaScript/TypeScript, React, Next.js, Node.js and Flutter. Experience designing serverless architectures on AWS and integrating generative AI into support and automation workflows. Currently maintaining, testing and developing features for a social platform used on Android, iOS and Web.",
+    "summary": "Software developer with a core in JavaScript, TypeScript and Python, building web and mobile applications with React, Next.js, Node.js and Flutter. Experience with serverless architectures on AWS and generative AI integrated into support workflows. Uses AI-assisted tools (Claude, Cursor, Trae) to adapt quickly to each team's stack. Currently maintaining, testing and developing features for a social platform on Android, iOS and Web.",
     "experience": [
       {
         "role": "Full Stack Developer",
@@ -42,13 +42,13 @@
         "stack": "Flutter, Dart, Firebase, Cloud Functions, Stripe"
       },
       {
-        "role": "Software Developer, SAP / SAP Fiori",
+        "role": "IT Apprentice, SAP / SAP Fiori Development",
         "company": "Mitsubishi Electric de Colombia",
         "place": "Bello, Colombia",
         "start": "Jan 2026",
         "end": "Jul 2026",
         "bullets": [
-          "Led, together with the team, the full-stack migration of SAP services for five business areas, keeping operations running while adapting each service to its needs.",
+          "Worked with the SAP team on the full-stack migration of SAP services for five business areas, splitting coverage by area and advising each other on blockers to speed up delivery.",
           "Developed and refined OData services and SAP Fiori / SAPUI5 applications, reducing data overhead and keeping the code clean and maintainable.",
           "Diagnosed and resolved incidents in SAP features and services, validating results with functional tests before production release."
         ],
@@ -57,12 +57,20 @@
     ],
     "skills": [
       [
-        "Languages",
-        "TypeScript, JavaScript, Python, Dart, C#, C++, SQL"
+        "Core",
+        "JavaScript, TypeScript, Python"
+      ],
+      [
+        "AI-assisted Development",
+        "Claude, Cursor, Trae"
+      ],
+      [
+        "Other Languages",
+        "Dart, C#, C++, SQL"
       ],
       [
         "Frontend",
-        "React, Next.js, Vue, HTML, CSS, Sass, Tailwind CSS"
+        "React, Next.js, HTML, CSS, Sass, Tailwind CSS"
       ],
       [
         "Backend and Databases",
@@ -210,7 +218,8 @@
         "issuer": "SENA, Complejo Tecnológico para la Gestión Agroempresarial",
         "date": ""
       }
-    ]
+    ],
+    "availability": "Seeking: remote roles, or hybrid / on-site roles in Medellín"
   },
   "es": {
     "title": "Desarrollador de Software Full Stack",
@@ -229,7 +238,7 @@
       "hours": "horas",
       "graduated": "Graduado"
     },
-    "summary": "Desarrollador de software full stack con experiencia en aplicaciones web y móviles con JavaScript/TypeScript, React, Next.js, Node.js y Flutter. Experiencia diseñando arquitecturas serverless en AWS e integrando IA generativa en flujos de soporte y automatización. Actualmente realiza mantenimiento, pruebas y desarrollo de funcionalidades en una plataforma social disponible en Android, iOS y Web.",
+    "summary": "Desarrollador de software con núcleo en JavaScript, TypeScript y Python, que construye aplicaciones web y móviles con React, Next.js, Node.js y Flutter. Experiencia con arquitecturas serverless en AWS e IA generativa integrada en flujos de soporte. Usa herramientas de desarrollo asistido por IA (Claude, Cursor, Trae) para adaptarse rápido al stack de cada equipo. Actualmente realiza mantenimiento, pruebas y desarrollo de funcionalidades en una plataforma social en Android, iOS y Web.",
     "experience": [
       {
         "role": "Desarrollador Full Stack",
@@ -246,13 +255,13 @@
         "stack": "Flutter, Dart, Firebase, Cloud Functions, Stripe"
       },
       {
-        "role": "Desarrollador de Software, SAP / SAP Fiori",
+        "role": "Aprendiz IT, Desarrollo SAP / SAP Fiori",
         "company": "Mitsubishi Electric de Colombia",
         "place": "Bello, Colombia",
         "start": "ene. 2026",
         "end": "jul. 2026",
         "bullets": [
-          "Lideré junto al equipo la migración full stack de servicios SAP para cinco áreas de la empresa, asegurando continuidad operativa y adaptación a sus necesidades.",
+          "Trabajé con el equipo SAP en la migración full stack de servicios para cinco áreas, repartiendo la cobertura por área y asesorándonos ante los problemas para agilizar la entrega.",
           "Desarrollé y ajusté servicios OData y aplicaciones SAP Fiori / SAPUI5, optimizando el consumo de información y manteniendo código limpio y mantenible.",
           "Analicé y resolví incidencias en funcionalidades y servicios SAP, validando resultados con pruebas funcionales antes de la puesta en producción."
         ],
@@ -261,12 +270,20 @@
     ],
     "skills": [
       [
-        "Lenguajes",
-        "TypeScript, JavaScript, Python, Dart, C#, C++, SQL"
+        "Núcleo",
+        "JavaScript, TypeScript, Python"
+      ],
+      [
+        "Desarrollo asistido por IA",
+        "Claude, Cursor, Trae"
+      ],
+      [
+        "Otros lenguajes",
+        "Dart, C#, C++, SQL"
       ],
       [
         "Frontend",
-        "React, Next.js, Vue, HTML, CSS, Sass, Tailwind CSS"
+        "React, Next.js, HTML, CSS, Sass, Tailwind CSS"
       ],
       [
         "Backend y Bases de Datos",
@@ -414,6 +431,7 @@
         "issuer": "SENA, Complejo Tecnológico para la Gestión Agroempresarial",
         "date": ""
       }
-    ]
+    ],
+    "availability": "Busco: empleo remoto, o híbrido / presencial en Medellín"
   }
 }
