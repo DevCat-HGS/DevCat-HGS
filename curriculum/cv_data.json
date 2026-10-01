@@ -1,0 +1,218 @@
+{
+  "name": "Harold G. Salgado",
+  "email": "haroldguerrerosena@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/harold-salgado-498a60354/",
+  "github": "https://github.com/DevCat-HGS",
+  "files": {
+    "en": "Harold_Salgado_CV_EN.pdf",
+    "es": "Harold_Salgado_CV_ES.pdf"
+  },
+  "en": {
+    "title": "Full Stack Software Developer",
+    "location": "Colombia",
+    "labels": {
+      "summary": "Professional Summary",
+      "experience": "Work Experience",
+      "skills": "Technical Skills",
+      "projects": "Selected Projects",
+      "education": "Education",
+      "present": "Present",
+      "client": "Client",
+      "stack": "Technologies"
+    },
+    "summary": "Full stack software developer with experience building web and mobile applications with JavaScript/TypeScript, React, Next.js, Node.js and Flutter. Experience designing serverless architectures on AWS and integrating generative AI into support and automation workflows. Currently maintaining, testing and developing features for a social platform used on Android, iOS and Web.",
+    "experience": [
+      {
+        "role": "Full Stack Developer",
+        "company": "MIGOZZ",
+        "place": "Startup, Colombia",
+        "start": "Sep 2026",
+        "end": null,
+        "bullets": [
+          "Maintain a live social platform for creators, brands and artists across Android, iOS and Web.",
+          "Perform QA testing of new features and regression checks before each release.",
+          "Develop new features across the Flutter application and the Firebase backend.",
+          "Resolve issues and deliver fixes through pull requests and code review."
+        ],
+        "stack": "Flutter, Dart, Firebase, Cloud Functions, Stripe"
+      },
+      {
+        "role": "Software Developer, SAP / SAP Fiori",
+        "company": "Mitsubishi Electric de Colombia",
+        "place": "Bello, Colombia",
+        "start": "Jan 2026",
+        "end": "Jul 2026",
+        "bullets": [
+          "Led, together with the team, the full-stack migration of SAP services for five business areas, keeping operations running while adapting each service to its needs.",
+          "Developed and refined OData services and SAP Fiori / SAPUI5 applications, reducing data overhead and keeping the code clean and maintainable.",
+          "Diagnosed and resolved incidents in SAP features and services, validating results with functional tests before production release."
+        ],
+        "stack": "SAP Fiori, SAPUI5, OData, JavaScript"
+      }
+    ],
+    "skills": [
+      ["Languages", "TypeScript, JavaScript, Python, Dart, C#, C++, SQL"],
+      ["Frontend", "React, Next.js, Vue, HTML, CSS, Sass, Tailwind CSS"],
+      ["Backend and Databases", "Node.js, Express, PostgreSQL, MongoDB, MySQL, Firebase, Supabase, OpenSearch"],
+      ["Cloud and DevOps", "AWS (Lambda, API Gateway, Bedrock), Google Cloud, Docker, Git, GitHub Actions, CI/CD, Linux"],
+      ["Mobile", "Flutter, Dart, Android"],
+      ["AI and Automation", "Generative AI, Amazon Bedrock, semantic search, Make"],
+      ["Other", "Unity, Arduino, SAP Fiori, SAPUI5, OData, QA testing"]
+    ],
+    "projects": [
+      {
+        "name": "ARIA",
+        "client": "Arix Group",
+        "text": "Generative AI assistant for SAP processes on a serverless AWS architecture, with retrieval over OpenSearch and escalation to a human consultant.",
+        "stack": "AWS, Lambda, Bedrock, OpenSearch, Python, React"
+      },
+      {
+        "name": "Hecho en Sabaneta",
+        "client": "",
+        "text": "Local commerce platform with business directory, product catalog, shopping cart and events. hechoensabaneta.com",
+        "stack": "TypeScript, Next.js, Firebase, Google Cloud"
+      },
+      {
+        "name": "Arcoiris Zapatería",
+        "client": "",
+        "text": "Service website for a family workshop in Medellín with a catalog of 50+ services, before/after gallery and guided diagnosis to WhatsApp. arcoiriszapateria.com",
+        "stack": "TypeScript, Next.js, Firebase, Google Cloud"
+      },
+      {
+        "name": "SENA Cloud",
+        "client": "SENA, institutional project built during my training",
+        "text": "Academic and administrative management platform with multiple user roles and permission control. senacloud.netlify.app",
+        "stack": "TypeScript, React, MongoDB, Tailwind CSS"
+      },
+      {
+        "name": "SensoresAPP",
+        "client": "SENA, institutional project built during my training",
+        "text": "Flood early-warning prototype using water-level sensors for nearby communities.",
+        "stack": "Arduino, C++, IoT"
+      },
+      {
+        "name": "Chaman Tarot Dashboard",
+        "client": "Inversiones Amazónica S.A.S.",
+        "text": "Dashboard for managing readings with AI-generated predictions and Make automations.",
+        "stack": "React, Supabase, Make"
+      },
+      {
+        "name": "CashWin",
+        "client": "Inversiones Amazónica S.A.S.",
+        "text": "Real-time multiplayer dice game with payment integration.",
+        "stack": "Unity, C#, Photon PUN 2, MercadoPago"
+      },
+      {
+        "name": "Farmacia Admin",
+        "client": "Droguería Medifarma",
+        "text": "Private inventory, sales and reporting system for a pharmacy.",
+        "stack": "React, JavaScript, MongoDB"
+      }
+    ],
+    "education": []
+  },
+  "es": {
+    "title": "Desarrollador de Software Full Stack",
+    "location": "Colombia",
+    "labels": {
+      "summary": "Perfil Profesional",
+      "experience": "Experiencia Laboral",
+      "skills": "Habilidades Técnicas",
+      "projects": "Proyectos Destacados",
+      "education": "Formación Académica",
+      "present": "Actualidad",
+      "client": "Cliente",
+      "stack": "Tecnologías"
+    },
+    "summary": "Desarrollador de software full stack con experiencia en aplicaciones web y móviles con JavaScript/TypeScript, React, Next.js, Node.js y Flutter. Experiencia diseñando arquitecturas serverless en AWS e integrando IA generativa en flujos de soporte y automatización. Actualmente realiza mantenimiento, pruebas y desarrollo de funcionalidades en una plataforma social disponible en Android, iOS y Web.",
+    "experience": [
+      {
+        "role": "Desarrollador Full Stack",
+        "company": "MIGOZZ",
+        "place": "Startup, Colombia",
+        "start": "sep. 2026",
+        "end": null,
+        "bullets": [
+          "Mantenimiento de una plataforma social en producción para creadores, marcas y artistas en Android, iOS y Web.",
+          "QA testing de nuevas funcionalidades y pruebas de regresión antes de cada entrega.",
+          "Desarrollo de nuevas funcionalidades en la aplicación Flutter y el backend en Firebase.",
+          "Resolución de issues y entrega de correcciones mediante pull requests y revisión de código."
+        ],
+        "stack": "Flutter, Dart, Firebase, Cloud Functions, Stripe"
+      },
+      {
+        "role": "Desarrollador de Software, SAP / SAP Fiori",
+        "company": "Mitsubishi Electric de Colombia",
+        "place": "Bello, Colombia",
+        "start": "ene. 2026",
+        "end": "jul. 2026",
+        "bullets": [
+          "Lideré junto al equipo la migración full stack de servicios SAP para cinco áreas de la empresa, asegurando continuidad operativa y adaptación a sus necesidades.",
+          "Desarrollé y ajusté servicios OData y aplicaciones SAP Fiori / SAPUI5, optimizando el consumo de información y manteniendo código limpio y mantenible.",
+          "Analicé y resolví incidencias en funcionalidades y servicios SAP, validando resultados con pruebas funcionales antes de la puesta en producción."
+        ],
+        "stack": "SAP Fiori, SAPUI5, OData, JavaScript"
+      }
+    ],
+    "skills": [
+      ["Lenguajes", "TypeScript, JavaScript, Python, Dart, C#, C++, SQL"],
+      ["Frontend", "React, Next.js, Vue, HTML, CSS, Sass, Tailwind CSS"],
+      ["Backend y Bases de Datos", "Node.js, Express, PostgreSQL, MongoDB, MySQL, Firebase, Supabase, OpenSearch"],
+      ["Cloud y DevOps", "AWS (Lambda, API Gateway, Bedrock), Google Cloud, Docker, Git, GitHub Actions, CI/CD, Linux"],
+      ["Mobile", "Flutter, Dart, Android"],
+      ["IA y Automatización", "IA generativa, Amazon Bedrock, búsqueda semántica, Make"],
+      ["Otros", "Unity, Arduino, SAP Fiori, SAPUI5, OData, QA testing"]
+    ],
+    "projects": [
+      {
+        "name": "ARIA",
+        "client": "Arix Group",
+        "text": "Asistente con IA generativa para procesos SAP sobre arquitectura serverless en AWS, con búsqueda en OpenSearch y escalamiento a un consultor humano.",
+        "stack": "AWS, Lambda, Bedrock, OpenSearch, Python, React"
+      },
+      {
+        "name": "Hecho en Sabaneta",
+        "client": "",
+        "text": "Plataforma de comercio local con directorio de negocios, catálogo, carrito de compras y eventos. hechoensabaneta.com",
+        "stack": "TypeScript, Next.js, Firebase, Google Cloud"
+      },
+      {
+        "name": "Arcoiris Zapatería",
+        "client": "",
+        "text": "Sitio de servicios para un taller familiar en Medellín con catálogo de más de 50 servicios, galería de antes y después y diagnóstico guiado a WhatsApp. arcoiriszapateria.com",
+        "stack": "TypeScript, Next.js, Firebase, Google Cloud"
+      },
+      {
+        "name": "SENA Cloud",
+        "client": "SENA, proyecto institucional desarrollado durante mi formación",
+        "text": "Plataforma de gestión académica y administrativa con múltiples roles de usuario y control de permisos. senacloud.netlify.app",
+        "stack": "TypeScript, React, MongoDB, Tailwind CSS"
+      },
+      {
+        "name": "SensoresAPP",
+        "client": "SENA, proyecto institucional desarrollado durante mi formación",
+        "text": "Prototipo de alerta temprana de inundaciones con sensores de nivel de agua para comunidades cercanas.",
+        "stack": "Arduino, C++, IoT"
+      },
+      {
+        "name": "Chaman Tarot Dashboard",
+        "client": "Inversiones Amazónica S.A.S.",
+        "text": "Dashboard para gestionar lecturas con predicciones generadas por IA y automatizaciones con Make.",
+        "stack": "React, Supabase, Make"
+      },
+      {
+        "name": "CashWin",
+        "client": "Inversiones Amazónica S.A.S.",
+        "text": "Videojuego multijugador de dados en tiempo real con integración de pagos.",
+        "stack": "Unity, C#, Photon PUN 2, MercadoPago"
+      },
+      {
+        "name": "Farmacia Admin",
+        "client": "Droguería Medifarma",
+        "text": "Sistema privado de inventario, ventas y reportes para una droguería.",
+        "stack": "React, JavaScript, MongoDB"
+      }
+    ],
+    "education": []
+  }
+}

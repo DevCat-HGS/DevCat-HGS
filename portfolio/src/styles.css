@@ -431,6 +431,18 @@ img {
   transition: border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
+.social-btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #14101f;
+  font-weight: 500;
+}
+
+.social-btn.primary:hover {
+  color: #14101f;
+  filter: brightness(1.08);
+}
+
 .social-btn:hover {
   border-color: var(--accent);
   color: var(--accent);

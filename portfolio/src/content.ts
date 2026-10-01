@@ -186,6 +186,7 @@ export const copy = {
     ],
     footer: "Harold G. Salgado  ·  Software Engineer",
     visit: "Open site",
+    cv: { label: "Download CV", href: "cv/Harold_Salgado_CV_EN.pdf" },
     clientLabel: "Client",
     institutionalLabel: "Institutional project",
     trademarkNote:
@@ -376,6 +377,7 @@ export const copy = {
     ],
     footer: "Harold G. Salgado  ·  Software Engineer",
     visit: "Abrir sitio",
+    cv: { label: "Descargar CV", href: "cv/Harold_Salgado_CV_ES.pdf" },
     clientLabel: "Cliente",
     institutionalLabel: "Proyecto institucional",
     trademarkNote:
