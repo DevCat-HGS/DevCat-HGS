@@ -1,0 +1,46 @@
+name: Privacity
+
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, portafolio]
+    paths:
+      - privacity/featured.json
+      - privacity/update_private_repos.py
+      - .github/workflows/privacity.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: privacity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  private-repos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # METRICS_TOKEN permite verificar los repos privados. Sin él el script sigue funcionando,
+      # pero no puede comprobar la visibilidad real (lo avisa en el log).
+      - name: Update private repos section
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: python privacity/update_private_repos.py
+
+      - name: Commit README changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README.es.md
+          git diff --quiet --cached && echo "Sin cambios" && exit 0
+          git commit -m "chore: update private repos section"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

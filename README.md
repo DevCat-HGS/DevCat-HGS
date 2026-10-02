@@ -250,6 +250,9 @@ Private administration and warehouse management system for pharmacies.
 
 ---
 
+<!-- PRIVATE-REPOS:START -->
+<!-- PRIVATE-REPOS:END -->
+
 ## GitHub Statistics
 
 <p align="center">

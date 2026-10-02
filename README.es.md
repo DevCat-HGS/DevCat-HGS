@@ -250,6 +250,9 @@ Sistema privado de administración y gestión de bodega para farmacias.
 
 ---
 
+<!-- PRIVATE-REPOS:START -->
+<!-- PRIVATE-REPOS:END -->
+
 ## Estadísticas de GitHub
 
 <p align="center">
