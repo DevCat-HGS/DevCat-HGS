@@ -1,0 +1,19 @@
+{
+  "blocked_terms": ["NombreDeCliente"],
+  "repos": [
+    {
+      "repo": "DevCat-HGS/mi-repo-privado",
+      "private": true,
+      "title": { "en": "Support assistant", "es": "Asistente de soporte" },
+      "description": {
+        "en": "Generative AI assistant on a serverless AWS architecture, with escalation to a human.",
+        "es": "Asistente con IA generativa sobre arquitectura serverless en AWS, con escalamiento a una persona."
+      },
+      "stack": ["AWS", "Python", "React"],
+      "url": "",
+      "client": "Nombre del cliente (solo se muestra si show_client es true)",
+      "show_client": false,
+      "show_updated": true
+    }
+  ]
+}

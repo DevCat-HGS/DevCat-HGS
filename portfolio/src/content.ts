@@ -226,6 +226,7 @@ export const copy = {
     links: [
       { label: "GitHub", href: "https://github.com/DevCat-HGS" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/harold-salgado-498a60354/" },
+      { label: "WhatsApp", href: "https://wa.me/573215634429?text=Hi%20Harol%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk." },
       { label: "DevTools", href: "https://github.com/DevCat-HGS/DevTools" },
     ],
     footer: "Harol Guerrero Salgado  ·  Software Engineer",
@@ -461,6 +462,7 @@ export const copy = {
     links: [
       { label: "GitHub", href: "https://github.com/DevCat-HGS" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/harold-salgado-498a60354/" },
+      { label: "WhatsApp", href: "https://wa.me/573215634429?text=Hola%20Harol%2C%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20hablar%20contigo." },
       { label: "DevTools", href: "https://github.com/DevCat-HGS/DevTools" },
     ],
     footer: "Harol Guerrero Salgado  ·  Software Engineer",
