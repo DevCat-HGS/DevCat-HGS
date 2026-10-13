@@ -11,10 +11,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="./profile/avatar.png" width="140" alt="Portrait of Harold G. S."/>
-</p>
-
 <h1 align="center">Harold G. S.</h1>
 
 <p align="center">
