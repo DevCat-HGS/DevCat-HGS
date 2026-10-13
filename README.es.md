@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/harold-salgado-498a60354/">
+  <a href="https://www.linkedin.com/in/harol-g-salgado-498a60354/">
     <img src="https://img.shields.io/badge/LinkedIn-Harold%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/DevCat-HGS/DevPanel">
@@ -136,7 +136,7 @@ Migración full stack de servicios SAP para cinco áreas de la empresa, servicio
 ---
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/harold-salgado-498a60354/">
+  <a href="https://www.linkedin.com/in/harol-g-salgado-498a60354/">
     <img src="https://img.shields.io/badge/LinkedIn-Harold%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:haroldguerrerosena@gmail.com">
