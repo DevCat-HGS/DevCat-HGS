@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="./profile/banner.svg" width="100%" alt="Harold G. S. — Software Developer · Full Stack, AI, Cloud, Mobile"/>
-</p>
-
-<p align="center">
   <a href="https://github.com/DevCat-HGS/DevCat-HGS/blob/main/README.md">
     <img src="https://img.shields.io/badge/English-0e75b6?style=flat-square" alt="Read in English"/>
   </a>
@@ -11,14 +7,8 @@
   </a>
 </p>
 
-<h1 align="center">Harold G. S.</h1>
-
 <p align="center">
-  <strong>Software Developer</strong> &nbsp;·&nbsp; Full Stack &nbsp;·&nbsp; AI &nbsp;·&nbsp; Cloud &nbsp;·&nbsp; Mobile
-</p>
-
-<p align="center">
-  I build web and mobile products and cloud architectures, and bring generative AI into real-world systems.
+  <img src="./profile/banner.svg" width="100%" alt="Harold G. S. — Software Developer · Full Stack, AI, Cloud, Mobile"/>
 </p>
 
 <p align="center">
