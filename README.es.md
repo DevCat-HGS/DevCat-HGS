@@ -11,6 +11,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="./profile/avatar.png" width="140" alt="Retrato de Harold G. S."/>
+</p>
+
 <h1 align="center">Harold G. S.</h1>
 
 <p align="center">
@@ -33,10 +37,54 @@
 
 ---
 
-## Stack
+## Tecnologías
+
+**Frontend**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,python,fastapi,flutter,dart,kotlin,firebase,supabase,mongodb,postgres,aws,docker,githubactions,tensorflow,unity,arduino&perline=10" alt="TypeScript, JavaScript, React, Next.js, Node.js, Python, FastAPI, Flutter, Dart, Kotlin, Firebase, Supabase, MongoDB, PostgreSQL, AWS, Docker, GitHub Actions, TensorFlow, Unity, Arduino"/>
+  <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap,materialui" alt="HTML, CSS, Sass, Tailwind, Bootstrap, Material UI"/>
+</p>
+
+**JavaScript y TypeScript**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vite,vue,nodejs,express,deno,jquery" alt="JavaScript, TypeScript, React, Next.js, Vite, Vue, Node.js, Express, Deno, jQuery"/>
+</p>
+
+**Backend y Bases de Datos**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,php,django,flask,fastapi,mongodb,mysql,postgres,sqlite,supabase,firebase" alt="Python, PHP, Django, Flask, FastAPI, MongoDB, MySQL, PostgreSQL, SQLite, Supabase, Firebase"/>
+</p>
+
+**Inteligencia Artificial y Visión por Computador**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv,anaconda" alt="Python, TensorFlow, PyTorch, OpenCV, Anaconda"/>
+</p>
+
+**Cloud, DevOps y Herramientas**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,docker,git,github,githubactions,npm,postman,vercel,netlify" alt="AWS, Docker, Git, GitHub, GitHub Actions, npm, Postman, Vercel, Netlify"/>
+</p>
+
+**Mobile**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,kotlin" alt="Flutter, Dart, Android Studio, Kotlin"/>
+</p>
+
+**Game Development e IoT**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=unity,cs,cpp,arduino,threejs,blender,svg" alt="Unity, C#, C++, Arduino, Three.js, Blender, SVG"/>
+</p>
+
+**Entorno de Desarrollo**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=vscode,visualstudio,powershell,windows,linux,ubuntu,arch,kali" alt="VS Code, Visual Studio, PowerShell, Windows, Linux, Ubuntu, Arch, Kali"/>
 </p>
 
 ---
