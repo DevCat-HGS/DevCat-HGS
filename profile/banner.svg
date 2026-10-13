@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
+  <title id="t">Harold G. S. — Software Developer</title>
+  <desc id="d">Full Stack, AI, Cloud and Mobile developer.</desc>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ebeae4" fill-opacity="0.07"/>
+    </pattern>
+    <radialGradient id="glow" cx="78%" cy="50%" r="45%">
+      <stop offset="0" stop-color="#ffd400" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffd400" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#111315"/>
+      <stop offset="0.55" stop-color="#111315" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1280" height="320" rx="18"/></clipPath>
+    <style>
+      .sans { font-family: "Archivo", "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; }
+      .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+      .spin { transform-origin: 1000px 160px; animation: spin 60s linear infinite; }
+      .spin-rev { transform-origin: 1000px 160px; animation: spin 90s linear infinite reverse; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+      @media (prefers-reduced-motion: reduce) { .spin, .spin-rev, .pulse { animation: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="320" fill="#111315"/>
+    <rect width="1280" height="320" fill="url(#dots)"/>
+    <rect width="1280" height="320" fill="url(#glow)"/>
+
+    <!-- Orbit -->
+    <g fill="none" stroke="#ebeae4">
+      <circle cx="1000" cy="160" r="70" stroke-opacity="0.18"/>
+      <circle cx="1000" cy="160" r="120" stroke-opacity="0.2" stroke-dasharray="2 8"/>
+      <circle cx="1000" cy="160" r="175" stroke-opacity="0.08"/>
+    </g>
+    <circle cx="1000" cy="160" r="9" fill="#ffd400"/>
+    <circle cx="1000" cy="160" r="22" fill="none" stroke="#ffd400" stroke-opacity="0.35"/>
+
+    <g class="spin">
+      <g class="mono" font-size="13" font-weight="600" text-anchor="middle">
+        <circle cx="1070" cy="160" r="20" fill="#1c1f22" stroke="#ebeae4" stroke-opacity="0.3"/>
+        <text x="1070" y="165" fill="#ebeae4">TS</text>
+        <circle cx="930" cy="160" r="20" fill="#1c1f22" stroke="#ebeae4" stroke-opacity="0.3"/>
+        <text x="930" y="165" fill="#ebeae4">PY</text>
+      </g>
+    </g>
+    <g class="spin-rev">
+      <g class="mono" font-size="12" font-weight="600" text-anchor="middle">
+        <circle cx="1000" cy="40" r="22" fill="#ffd400"/>
+        <text x="1000" y="44" fill="#111315">AWS</text>
+        <circle cx="1104" cy="220" r="22" fill="#1c1f22" stroke="#ebeae4" stroke-opacity="0.3"/>
+        <text x="1104" y="224" fill="#ebeae4">AI</text>
+        <circle cx="896" cy="220" r="22" fill="#1c1f22" stroke="#ebeae4" stroke-opacity="0.3"/>
+        <text x="896" y="224" fill="#ebeae4">DART</text>
+      </g>
+    </g>
+
+    <rect width="1280" height="320" fill="url(#fade)"/>
+
+    <!-- Text -->
+    <rect x="72" y="70" width="44" height="6" fill="#ffd400"/>
+    <text x="72" y="112" class="mono" font-size="15" fill="#b7b8b2" letter-spacing="2">DEVCAT-HGS<tspan fill="#ffd400" class="pulse">_</tspan></text>
+    <text x="68" y="186" class="sans" font-size="72" font-weight="800" fill="#ebeae4" letter-spacing="-2">Harold G. S.</text>
+    <text x="72" y="228" class="sans" font-size="24" font-weight="500" fill="#ebeae4">Software Developer</text>
+    <text x="72" y="262" class="mono" font-size="15" fill="#b7b8b2" letter-spacing="1">Full Stack <tspan fill="#ffd400">/</tspan> AI <tspan fill="#ffd400">/</tspan> Cloud <tspan fill="#ffd400">/</tspan> Mobile</text>
+
+    <rect x="0.5" y="0.5" width="1279" height="319" rx="18" fill="none" stroke="#ebeae4" stroke-opacity="0.1"/>
+  </g>
+</svg>
