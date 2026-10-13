@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
-  <title id="t">Harold G. S. — Software Developer</title>
-  <desc id="d">Full Stack, AI, Cloud and Mobile developer. Main languages: TypeScript, JavaScript, C#, HTML, Python, CSS, Dart and C++.</desc>
+  <title id="t">Harol Guerrero Salgado — Full Stack Developer</title>
+  <desc id="d">Full Stack developer: web, mobile, AI and cloud. Main languages: TypeScript, JavaScript, C#, HTML, Python, CSS, Dart and C++.</desc>
   <defs>
     <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.2" fill="#ebeae4" fill-opacity="0.07"/>
@@ -71,9 +71,9 @@
     <!-- Text -->
     <rect x="72" y="70" width="44" height="6" fill="#ffd400"/>
     <text x="72" y="112" class="mono" font-size="15" fill="#b7b8b2" letter-spacing="2">DEVCAT-HGS<tspan fill="#ffd400" class="pulse">_</tspan></text>
-    <text x="68" y="186" class="sans" font-size="72" font-weight="800" fill="#ebeae4" letter-spacing="-2">Harold G. S.</text>
-    <text x="72" y="228" class="sans" font-size="24" font-weight="500" fill="#ebeae4">Software Developer</text>
-    <text x="72" y="262" class="mono" font-size="15" fill="#b7b8b2" letter-spacing="1">Full Stack <tspan fill="#ffd400">/</tspan> AI <tspan fill="#ffd400">/</tspan> Cloud <tspan fill="#ffd400">/</tspan> Mobile</text>
+    <text x="68" y="186" class="sans" font-size="58" font-weight="800" fill="#ebeae4" letter-spacing="-1.5">Harol Guerrero Salgado</text>
+    <text x="72" y="228" class="sans" font-size="24" font-weight="500" fill="#ebeae4">Full Stack Developer</text>
+    <text x="72" y="262" class="mono" font-size="15" fill="#b7b8b2" letter-spacing="1">Web <tspan fill="#ffd400">/</tspan> Mobile <tspan fill="#ffd400">/</tspan> AI <tspan fill="#ffd400">/</tspan> Cloud</text>
 
     <rect x="0.5" y="0.5" width="1279" height="319" rx="18" fill="none" stroke="#ebeae4" stroke-opacity="0.1"/>
   </g>

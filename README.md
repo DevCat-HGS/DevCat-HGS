@@ -8,12 +8,12 @@
 </p>
 
 <p align="center">
-  <img src="./profile/banner.svg" width="100%" alt="Harold G. S. — Software Developer · Full Stack, AI, Cloud, Mobile"/>
+  <img src="./profile/banner.svg" width="100%" alt="Harol Guerrero Salgado — Full Stack Developer · Web, Mobile, AI, Cloud"/>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/harol-g-salgado-498a60354/">
-    <img src="https://img.shields.io/badge/LinkedIn-Harold%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Harol%20Guerrero%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/DevCat-HGS/DevPanel">
     <img src="https://img.shields.io/badge/DevPanel-Desktop%20dashboard-0e75b6?style=flat-square&logo=github&logoColor=white" alt="DevPanel"/>
@@ -92,8 +92,8 @@ Social platform for creators, brands and artists on Android, iOS and Web. Flutte
   </a>
 </p>
 
-**Mitsubishi Electric de Colombia** — Software Developer, SAP / SAP Fiori &nbsp;·&nbsp; Jan 2026 – Jul 2026<br/>
-Full-stack migration of SAP services for five business areas, plus OData services and SAP Fiori / SAPUI5 apps.
+**Mitsubishi Electric de Colombia** — IT Apprentice, SAP / SAP Fiori Development &nbsp;·&nbsp; Jan 2026 – Jul 2026<br/>
+OData services and SAP Fiori / SAPUI5 apps, plus incident analysis and functional testing.
 
 ---
 
@@ -127,7 +127,7 @@ Full-stack migration of SAP services for five business areas, plus OData service
 
 <p align="center">
   <a href="https://www.linkedin.com/in/harol-g-salgado-498a60354/">
-    <img src="https://img.shields.io/badge/LinkedIn-Harold%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Harol%20Guerrero%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:haroldguerrerosena@gmail.com">
     <img src="https://img.shields.io/badge/Email-haroldguerrerosena%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>

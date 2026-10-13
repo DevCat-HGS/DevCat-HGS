@@ -8,12 +8,12 @@
 </p>
 
 <p align="center">
-  <img src="./profile/banner.svg" width="100%" alt="Harold G. S. — Software Developer · Full Stack, AI, Cloud, Mobile"/>
+  <img src="./profile/banner.svg" width="100%" alt="Harol Guerrero Salgado — Full Stack Developer · Web, Mobile, AI, Cloud"/>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/harol-g-salgado-498a60354/">
-    <img src="https://img.shields.io/badge/LinkedIn-Harold%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Harol%20Guerrero%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/DevCat-HGS/DevPanel">
     <img src="https://img.shields.io/badge/DevPanel-Panel%20de%20escritorio-0e75b6?style=flat-square&logo=github&logoColor=white" alt="DevPanel"/>
@@ -92,8 +92,8 @@ Plataforma social para creadores, marcas y artistas en Android, iOS y Web. Flutt
   </a>
 </p>
 
-**Mitsubishi Electric de Colombia** — Desarrollador de Software, SAP / SAP Fiori &nbsp;·&nbsp; ene. 2026 – jul. 2026<br/>
-Migración full stack de servicios SAP para cinco áreas de la empresa, servicios OData y apps SAP Fiori / SAPUI5.
+**Mitsubishi Electric de Colombia** — Aprendiz IT, Desarrollo SAP / SAP Fiori &nbsp;·&nbsp; ene. 2026 – jul. 2026<br/>
+Servicios OData y apps SAP Fiori / SAPUI5, con análisis de incidencias y pruebas funcionales.
 
 ---
 
@@ -127,7 +127,7 @@ Migración full stack de servicios SAP para cinco áreas de la empresa, servicio
 
 <p align="center">
   <a href="https://www.linkedin.com/in/harol-g-salgado-498a60354/">
-    <img src="https://img.shields.io/badge/LinkedIn-Harold%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Harol%20Guerrero%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:haroldguerrerosena@gmail.com">
     <img src="https://img.shields.io/badge/Email-haroldguerrerosena%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Correo"/>
