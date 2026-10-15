@@ -15,14 +15,14 @@
   </style>
   <rect x="0.5" y="0.5" width="859" height="293" rx="6" class="card"/>
   <text x="22" y="36" class="title">Volumen de código</text>
-  <text x="22" y="73" class="lang">TypeScript</text><rect x="118" y="65" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="65" width="200" height="9" rx="4.5" fill="#3178c6"/><text x="328" y="73" class="value">31.3%</text>
-  <text x="22" y="99" class="lang">JavaScript</text><rect x="118" y="91" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="91" width="180" height="9" rx="4.5" fill="#f1e05a"/><text x="328" y="99" class="value">28.2%</text>
-  <text x="22" y="125" class="lang">C#</text><rect x="118" y="117" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="117" width="113" height="9" rx="4.5" fill="#178600"/><text x="328" y="125" class="value">17.7%</text>
+  <text x="22" y="73" class="lang">TypeScript</text><rect x="118" y="65" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="65" width="200" height="9" rx="4.5" fill="#3178c6"/><text x="328" y="73" class="value">31.6%</text>
+  <text x="22" y="99" class="lang">JavaScript</text><rect x="118" y="91" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="91" width="177" height="9" rx="4.5" fill="#f1e05a"/><text x="328" y="99" class="value">28.0%</text>
+  <text x="22" y="125" class="lang">C#</text><rect x="118" y="117" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="117" width="111" height="9" rx="4.5" fill="#178600"/><text x="328" y="125" class="value">17.6%</text>
   <text x="22" y="151" class="lang">HTML</text><rect x="118" y="143" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="143" width="33" height="9" rx="4.5" fill="#e34c26"/><text x="328" y="151" class="value">5.2%</text>
-  <text x="22" y="177" class="lang">Python</text><rect x="118" y="169" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="169" width="26" height="9" rx="4.5" fill="#3572a5"/><text x="328" y="177" class="value">4.1%</text>
-  <text x="22" y="203" class="lang">CSS</text><rect x="118" y="195" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="195" width="26" height="9" rx="4.5" fill="#663399"/><text x="328" y="203" class="value">4.1%</text>
+  <text x="22" y="177" class="lang">CSS</text><rect x="118" y="169" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="169" width="27" height="9" rx="4.5" fill="#663399"/><text x="328" y="177" class="value">4.2%</text>
+  <text x="22" y="203" class="lang">Python</text><rect x="118" y="195" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="195" width="26" height="9" rx="4.5" fill="#3572a5"/><text x="328" y="203" class="value">4.1%</text>
   <text x="22" y="229" class="lang">Dart</text><rect x="118" y="221" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="221" width="23" height="9" rx="4.5" fill="#00b4ab"/><text x="328" y="229" class="value">3.6%</text>
-  <text x="22" y="255" class="lang">C++</text><rect x="118" y="247" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="247" width="17" height="9" rx="4.5" fill="#f34b7d"/><text x="328" y="255" class="value">2.6%</text>
+  <text x="22" y="255" class="lang">C++</text><rect x="118" y="247" width="200" height="9" rx="4.5" class="track"/><rect x="118" y="247" width="16" height="9" rx="4.5" fill="#f34b7d"/><text x="328" y="255" class="value">2.6%</text>
   <text x="452" y="36" class="title">Amplitud de uso</text>
   <text x="452" y="73" class="lang">JavaScript</text><rect x="548" y="65" width="200" height="9" rx="4.5" class="track"/><rect x="548" y="65" width="200" height="9" rx="4.5" fill="#f1e05a"/><text x="758" y="73" class="value">58 repos</text>
   <text x="452" y="99" class="lang">HTML</text><rect x="548" y="91" width="200" height="9" rx="4.5" class="track"/><rect x="548" y="91" width="183" height="9" rx="4.5" fill="#e34c26"/><text x="758" y="99" class="value">53 repos</text>
