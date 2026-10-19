@@ -129,7 +129,7 @@ Servicios OData y apps SAP Fiori / SAPUI5, con análisis de incidencias y prueba
   <a href="https://www.linkedin.com/in/harol-g-salgado-498a60354/">
     <img src="https://img.shields.io/badge/LinkedIn-Harol%20Guerrero%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:haroldguerrerosena@gmail.com">
-    <img src="https://img.shields.io/badge/Email-haroldguerrerosena%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Correo"/>
+  <a href="mailto:hdevelopergs@gmail.com">
+    <img src="https://img.shields.io/badge/Email-hdevelopergs%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Correo"/>
   </a>
 </p>
