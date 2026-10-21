@@ -12,6 +12,9 @@
 </p>
 
 <p align="center">
+  <a href="https://hgsportafolio.site">
+    <img src="https://img.shields.io/badge/Portafolio-hgsportafolio.site-111111?style=flat-square&logo=googlechrome&logoColor=white" alt="Portafolio"/>
+  </a>
   <a href="https://www.linkedin.com/in/harol-g-salgado-498a60354/">
     <img src="https://img.shields.io/badge/LinkedIn-Harol%20Guerrero%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
@@ -126,6 +129,9 @@ Servicios OData y apps SAP Fiori / SAPUI5, con análisis de incidencias y prueba
 ---
 
 <p align="center">
+  <a href="https://hgsportafolio.site">
+    <img src="https://img.shields.io/badge/Portafolio-hgsportafolio.site-111111?style=flat-square&logo=googlechrome&logoColor=white" alt="Portafolio"/>
+  </a>
   <a href="https://www.linkedin.com/in/harol-g-salgado-498a60354/">
     <img src="https://img.shields.io/badge/LinkedIn-Harol%20Guerrero%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
