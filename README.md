@@ -21,6 +21,9 @@
   <a href="https://github.com/DevCat-HGS/DevPanel">
     <img src="https://img.shields.io/badge/DevPanel-Desktop%20dashboard-0e75b6?style=flat-square&logo=github&logoColor=white" alt="DevPanel"/>
   </a>
+  <a href="https://app.netlify.com/projects/portafolio-hgs/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/657907a8-7497-49ef-a8fa-5a6d6aebbe77/deploy-status" alt="Netlify Status"/>
+  </a>
   <img src="https://komarev.com/ghpvc/?username=DevCat-HGS&label=Profile%20views&color=0e75b6&style=flat-square" alt="Profile views"/>
 </p>
 
