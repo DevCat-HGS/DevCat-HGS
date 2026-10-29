@@ -15,7 +15,7 @@
   <a href="https://hgsportafolio.site">
     <img src="https://img.shields.io/badge/Portfolio-hgsportafolio.site-111111?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"/>
   </a>
-  <a href="https://www.linkedin.com/in/harol-g-salgado-498a60354/">
+  <a href="https://www.linkedin.com/in/harol-guerrero-salgado-498a60354/">
     <img src="https://img.shields.io/badge/LinkedIn-Harol%20Guerrero%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://github.com/DevCat-HGS/DevPanel">
@@ -135,7 +135,7 @@ OData services and SAP Fiori / SAPUI5 apps, plus incident analysis and functiona
   <a href="https://hgsportafolio.site">
     <img src="https://img.shields.io/badge/Portfolio-hgsportafolio.site-111111?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"/>
   </a>
-  <a href="https://www.linkedin.com/in/harol-g-salgado-498a60354/">
+  <a href="https://www.linkedin.com/in/harol-guerrero-salgado-498a60354/">
     <img src="https://img.shields.io/badge/LinkedIn-Harol%20Guerrero%20Salgado-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:hdevelopergs@gmail.com">
